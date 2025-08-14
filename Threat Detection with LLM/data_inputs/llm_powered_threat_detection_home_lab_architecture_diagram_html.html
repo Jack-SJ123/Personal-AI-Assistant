@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LLM‑Powered Threat Detection Home Lab</title>
+  <style>
+    :root {
+      --bg: #0b1020;          /* page background */
+      --ink: #e9edf5;         /* primary text */
+      --muted: #a9b1c7;       /* secondary text */
+      --aqua: #47d3ff;        /* data flow */
+      --lime: #89f0b6;        /* success */
+      --amber: #ffd166;       /* compute */
+      --pink: #ff7ab6;        /* LLM */
+      --violet: #c5a3ff;      /* storage */
+      --cyan: #74c0fc;        /* network */
+      --brick: #ff8373;       /* security */
+      --box: #151b34;         /* card bg */
+      --box2: #12172c;        /* deep card */
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font: 500 16px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    header { text-align:center; padding: 28px 16px 8px; }
+    header h1 { margin: 0 0 6px; font-size: 28px; letter-spacing: .2px; }
+    header p { margin: 0; color: var(--muted); }
+
+    .canvas {
+      width: 1200px; max-width: 95vw; margin: 28px auto 60px;
+      background: linear-gradient(180deg, #0b1020 0%, #0e1430 100%);
+      border-radius: 22px; box-shadow: var(--shadow); position: relative; overflow: hidden;
+      padding: 28px; border: 1px solid rgba(255,255,255,.05);
+    }
+    .legend {
+      display:flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; color: var(--muted);
+      font-size: 13px;
+    }
+    .legend span { display:inline-flex; align-items:center; gap:8px; padding:6px 10px; background: var(--box2); border-radius: 999px; }
+    .legend i { width:14px; height:14px; border-radius: 4px; display:inline-block; }
+
+    /* Layout grid */
+    .grid { display:grid; grid-template-columns: 1.2fr .9fr 1.1fr 1fr; gap: 18px; align-items: start; }
+
+    .card {
+      background: var(--box);
+      border: 1px solid rgba(255,255,255,.06);
+      border-radius: var(--radius);
+      padding: 14px 14px 16px; position: relative; box-shadow: var(--shadow);
+    }
+    .card h3 { margin: 4px 0 8px; font-size: 16px; letter-spacing:.2px; }
+    .pill { display:inline-block; padding:4px 10px; font-size:12px; border-radius:999px; color:#06121b; font-weight:700; letter-spacing:.3px; }
+    .llm { background: var(--pink); }
+    .net { background: var(--cyan); }
+    .store { background: var(--violet); }
+    .rule { background: var(--amber); }
+    .sec { background: var(--brick); }
+
+    ul { margin: 8px 0 0 18px; padding: 0; color: var(--muted); }
+    li { margin: 2px 0; }
+
+    /* Connectors using SVG overlay */
+    svg { position:absolute; inset:0; pointer-events:none; }
+    .flow { stroke-width:2.5; fill:none; }
+    .flow.aqua { stroke: var(--aqua); }
+    .flow.pink { stroke: var(--pink); stroke-dasharray: 4 4; }
+    .flow.violet { stroke: var(--violet); }
+    .flow.brick { stroke: var(--brick); }
+
+    .note { margin-top: 12px; font-size: 13px; color: var(--muted); }
+    .small { font-size: 12px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LLM‑Powered Threat Detection — Home Lab Architecture</h1>
+    <p>Balanced pipeline: OSINT ➜ LLM Extraction/Enrichment ➜ Detection (Suricata + Anomaly) ➜ SIEM/CTI ➜ Assisted Response</p>
+  </header>
+
+  <div class="canvas">
+    <div class="legend">
+      <span><i style="background:var(--aqua)"></i> Data Flow</span>
+      <span><i style="background:var(--pink)"></i> LLM‑Assisted Flow</span>
+      <span><i style="background:var(--violet)"></i> CTI / Storage</span>
+      <span><i style="background:var(--brick)"></i> Security Events/Actions</span>
+    </div>
+
+    <div class="grid">
+      <!-- Column 1 -->
+      <section class="card" id="osint">
+        <span class="pill net">OSINT & Feeds</span>
+        <h3>Sources</h3>
+        <ul>
+          <li>Blogs, advisories, vendor reports</li>
+          <li>MISP feeds, OTX, abuse.ch, ThreatFox</li>
+          <li>PCAP / NetFlow / Zeek logs</li>
+        </ul>
+        <div class="note small">Scheduled collectors fetch raw intel and traffic artifacts.</div>
+      </section>
+
+      <!-- Column 2 -->
+      <section class="card" id="llm">
+        <span class="pill llm">LLM Services</span>
+        <h3>Extraction & Enrichment</h3>
+        <ul>
+          <li>IOC & TTP extraction (NLP + regex guards)</li>
+          <li>ATT&CK mapping & summarization</li>
+          <li>Rule drafting: Suricata/YARA/Sigma</li>
+          <li>Alert triage & natural‑language notes</li>
+        </ul>
+        <div class="note small">Backed by embeddings + RAG on your TI corpus for precision.</div>
+      </section>
+
+      <!-- Column 3 -->
+      <section class="card" id="detect">
+        <span class="pill rule">Detection Stack</span>
+        <h3>Suricata + Anomaly</h3>
+        <ul>
+          <li>Suricata IDS/IPS (EVE JSON ➜ SIEM)</li>
+          <li>Zeek sensors (optional)</li>
+          <li>Baseline & anomaly (PyOD/IForest)</li>
+          <li>Auto‑test & validate rules</li>
+        </ul>
+        <div class="note small">LLM proposes rules; analyst approves before publish.</div>
+      </section>
+
+      <!-- Column 4 -->
+      <section class="card" id="platforms">
+        <span class="pill store">Platforms</span>
+        <h3>CTI / SIEM / Response</h3>
+        <ul>
+          <li>MISP for IOC objects & sharing</li>
+          <li>Elastic / OpenSearch / Wazuh SIEM</li>
+          <li>Playbooks: blocklists, FW automation</li>
+          <li>ChatOps: LLM analyst copilot</li>
+        </ul>
+        <div class="note small">Feedback loop improves future extractions & rules.</div>
+      </section>
+    </div>
+
+    <!-- SVG CONNECTORS -->
+    <svg viewBox="0 0 1200 620" preserveAspectRatio="none" aria-hidden>
+      <!-- OSINT ➜ LLM -->
+      <path class="flow aqua" d="M180,160 C300,160 360,160 460,160" />
+      <!-- LLM ➜ Detection (rules) -->
+      <path class="flow pink" d="M590,200 C710,220 820,220 920,230" />
+      <!-- LLM ➜ CTI (parsed IOCs) -->
+      <path class="flow pink" d="M590,260 C710,280 980,280 1080,300" />
+      <!-- OSINT ➜ CTI (raw feeds) -->
+      <path class="flow violet" d="M180,210 C300,240 980,340 1080,350" />
+      <!-- Detection ➜ SIEM events -->
+      <path class="flow brick" d="M900,330 C1000,360 1060,390 1100,410" />
+      <!-- SIEM ➜ LLM triage loop -->
+      <path class="flow pink" d="M1100,440 C960,460 760,480 590,330" />
+    </svg>
+
+    <div class="card" style="margin-top:18px;">
+      <h3>Home‑Lab Build Notes</h3>
+      <ul>
+        <li><strong>Sensors:</strong> Mirror traffic to a Suricata/Zeek VM; export EVE JSON to SIEM.</li>
+        <li><strong>CTI:</strong> Run MISP in Docker; ingest OTX/abuse.ch/ThreatFox; store LLM‑extracted IOCs with context.</li>
+        <li><strong>LLM:</strong> Local model (e.g., Llama 3.x) via Ollama or vLLM; RAG over your TI notes; guardrails for IOC regex validation.</li>
+        <li><strong>Rule Pipeline:</strong> LLM drafts Suricata/YARA/Sigma → run unit tests on pcaps → human approve → publish to Suricata.</li>
+        <li><strong>SIEM:</strong> Elastic/OpenSearch or Wazuh; dashboards for Suricata alerts, anomalies, and IOC matches.</li>
+        <li><strong>Response:</strong> Simple playbooks to update blocklists (pf/ipset/iptables) and notify via Slack/Matrix.</li>
+      </ul>
+      <p class="note">Keep the LLM in the loop for explanations and summarization, but hold a human approval gate for actions and rule changes.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

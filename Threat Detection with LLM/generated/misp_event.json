@@ -1,0 +1,3916 @@
+{
+  "Event": {
+    "info": "Home-Lab IOC Extraction",
+    "analysis": 2,
+    "date": "2025-08-13",
+    "threat_level_id": 2,
+    "Attribute": [
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "0d2a16abdb3520c5e27eec7496990a360b161b91",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "9bf6845e9d1dedb00c4d7156c0673ec97403c85c",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "ec8bdee1c73de2b3488646aa1b77316664ea7751",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "477f38004f3c5b13398ff6abe718e925af36ae0b",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "a71515277b747364bc1385d01c6027bc60f66a15",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "c9a612f2e8ef0788a271716cc8eae4129e3720f0",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "ff1c0dd60d9d708ad800064f6724d3d541a141ce",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "86b95cad5f9b483f702c5406dc9d819a860e61e7",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "2486c036a322a5b0d9d09c64a690892d85347dee",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "0d278fa58ffe7d0dede323f27789ba7903d41cfb",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "e18d6a3f4746e0600888926a2b97a2b8c3f0a29c",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "f45af82ed4a12663266ba927d6ef59babed2dbfc",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "7cb4122d637d8b6c4c4dc6427832b5c1ba993f0b",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "0e3145f69c4fb40577f32d6893d2038ea469255b",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "07372dc1581f6b0fed6246998585bccd6d3d4e5c",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "3afb5fc3abde8719b90ce1130d1f2929e4b87fbc",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "61da02ebe74e1e6e648ae47081530f2d5b59de04",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "51866c6e9cad8713f542dd063135d2b49a1a43de",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "ae2ae799b2e9ba834168d41a5d659d2cc61558c5",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "844013025bf7c5d01e6f48df0e990103ad3c333be31f54cf5301e1463f6ca441",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "42f3f9d2684328575847f3115fcd6f759cc47b0f21b3d4fea480de0f34a1e947",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "4a8bf419424ff42b736a51472d35a2c172e4c60b762c519b0b2f9eb04690726c",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "c8ae8d69f465f2d1ca88907e75471299acbb76b5663dacca1520aaa4d99d7b43",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "2b55430b90a500cb2bb9ddc530aeb1ffb8d2f8878148b7204ab7ef998d66eb9d",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/briefinitia/gouid?version=v0.0.0-20250417000631-be988fd38855",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.linkedin.com/company/socketinc/",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://github.com/logrange/linker",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/cavernouskina/mcp-go?version=v0.0.0-20250416213458-0672bd636980",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/51866c6e9cad8713f542dd063135d2b49a1a43de-2048x549.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://kaiaflow[.]icu/storage/bbb28ef04/fa31546b",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/ordinarymea/TNSR_IDS?version=v0.0.0-20250602014811-e7acc1e89512",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/expertsandba/opt?section=files",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/stripedconsu/linker?version=v0.0.0-20250227084011-d195c182cc85",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://klarrio.com/klarrio-discovers-large-scale-malware-network-on-github/",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/sinfulsky/gouid?version=v0.0.0-20250504180650-9146b5bfe24f",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/ff1c0dd60d9d708ad800064f6724d3d541a141ce-762x578.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/stripedconsu/linker?section=files&amp;version=v0.0.0-20250227084011-d195c182cc85&amp;path=doc.go#L61",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/lastnymph/gouid?version=v0.0.0-20250503213614-ce6d3ef58267",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/ordinarymea/tnsr_ids?section=files&amp;version=v0.0.0-20250602014811-e7acc1e89512&amp;path=config.go#L212",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/f45af82ed4a12663266ba927d6ef59babed2dbfc-1134x450.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/wetteepee/hcloud-ip-floater?version=v0.0.0-20250224151722-424a3c40b316",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/7cb4122d637d8b6c4c4dc6427832b5c1ba993f0b-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/weightycine/replika?section=files&amp;version=v0.0.0-20250503110147-670dceafc55a&amp;path=api%2Fv1beta1%2Fgroupversion_info.go#L40",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://docs.socket.dev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://twitter.com/SocketSecurity",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://kavarecent[.]icu/storage/de373d0df/a31546bf",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/cavernouskina/mcp-go?section=files&amp;version=v0.0.0-20250416213458-0672bd636980&amp;path=base.go#L41",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/0d2a16abdb3520c5e27eec7496990a360b161b91-820x545.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/cavernouskina/mcp-go?section=files",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/a71515277b747364bc1385d01c6027bc60f66a15-1994x986.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://github.com/SocketDev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://www.w3.org/2000/svg",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://klarrio.io",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/86b95cad5f9b483f702c5406dc9d819a860e61e7-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://carvecomi[.]fun/storage/de373d0df/a31546bf",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/blog/typosquatted-go-packages-deliver-malware-loader",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/ae2ae799b2e9ba834168d41a5d659d2cc61558c5-1024x1024.png?w=1000",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://infinityhel[.]icu/storage/bbb28ef04/fa31546b",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/lastnymph/gouid?section=files&amp;version=v0.0.0-20250503213614-ce6d3ef58267&amp;path=gouid.go#L85",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/wetteepee/hcloud-ip-floater?section=files",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://monsoletter[.]icu/storage/de373d0df/f0eee999",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/wetteepee/hcloud-ip-floater?section=files&amp;version=v0.0.0-20250224151722-424a3c40b316&amp;path=internal%2Fconfig%2Fconfig.go#L20",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/blog/wget-to-wipeout-malicious-go-modules-fetch-destructive-payload",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/stripedconsu/linker?section=files",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/briefinitia/gouid?section=files",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/477f38004f3c5b13398ff6abe718e925af36ae0b-1334x537.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/briefinitia/gouid?section=files&amp;version=v0.0.0-20250417000631-be988fd38855&amp;path=gouid.go#L85",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/ordinarymea/tnsr_ids?version=v0.0.0-20250602014811-e7acc1e89512",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://infinityhel[.]icu/storage/de373d0df/a31546bf",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/0e3145f69c4fb40577f32d6893d2038ea469255b-200x200.png?w=100&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/e18d6a3f4746e0600888926a2b97a2b8c3f0a29c-2048x942.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://mhouge.dk/blog/rogue-one-a-malware-story/",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://alturastreet[.]icu/storage/de373d0df/a31546bf",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/blog/socket-mcp",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/weightycine/replika?version=v0.0.0-20250503110147-670dceafc55a",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/agitatedleopa/stm?section=files&amp;version=v0.0.0-20250310195632-9b44df6faf7b&amp;path=doc.go#L82",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/c9a612f2e8ef0788a271716cc8eae4129e3720f0-2048x1186.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/3afb5fc3abde8719b90ce1130d1f2929e4b87fbc-1262x282.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://chromewebstore.google.com/detail/socket-security/jbcobpbfgkhmjfpjjepkcocalmpkiaop?pli=1",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/agitatedleopa/stm?version=v0.0.0-20250310195632-9b44df6faf7b",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/agitatedleopa/stm?section=files",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/weightycine/replika?section=files",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/ordinarymea/tnsr_ids?section=files",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/blog/11-malicious-go-packages-distribute-obfuscated-remote-payloads",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/ae2ae799b2e9ba834168d41a5d659d2cc61558c5-1024x1024.png?w=1000&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/expertsandba/opt?version=v0.0.0-20250323175433-944daabf89b7",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://nymclassic[.]tech/storage/de373d0df/a31546bf",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/features/cli",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/0d278fa58ffe7d0dede323f27789ba7903d41cfb-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://status.socket.dev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/lastnymph/gouid?section=files",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://discord.gg/JkhgPpXDSd",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://pkg.go.dev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/go/package/github.com/expertsandba/opt?section=files&amp;version=v0.0.0-20250323175433-944daabf89b7&amp;path=opt.go#L286",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://feedback.socket.dev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/ec8bdee1c73de2b3488646aa1b77316664ea7751-2048x983.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://monsoletter[.]icu/storage/de373d0df/a31546bf",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/features/github",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://kaiaflow[.]icu/storage/de373d0df/a31546bf",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "2fcdn.sanity.io",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "alturastreet.icu",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "cdn.sanity.io",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "chromewebstore.google.com",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "d.map",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "discord.gg",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "docs.socket.dev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "feedback.socket.dev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "github.com",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "klarrio.com",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "klarrio.io",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "mhouge.dk",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "pkg.go.dev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "socket.dev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "status.socket.dev",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "twitter.com",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.linkedin.com",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.w3.org",
+        "comment": "Extracted from 11 Malicious Go Packages Distribute Obfuscated Remote Payloa....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "0e3145f69c4fb40577f32d6893d2038ea469255b",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "07372dc1581f6b0fed6246998585bccd6d3d4e5c",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "9bf6845e9d1dedb00c4d7156c0673ec97403c85c",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "86b95cad5f9b483f702c5406dc9d819a860e61e7",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "61da02ebe74e1e6e648ae47081530f2d5b59de04",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "ae2ae799b2e9ba834168d41a5d659d2cc61558c5",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "2486c036a322a5b0d9d09c64a690892d85347dee",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "0d278fa58ffe7d0dede323f27789ba7903d41cfb",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "fd2f60fc507cb6ca82b7a47784e75081f0b34034",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "7cb4122d637d8b6c4c4dc6427832b5c1ba993f0b",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "21889ac11c8bb50190eef06acc4d55175a183254",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.linkedin.com/company/socketinc/",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/21889ac11c8bb50190eef06acc4d55175a183254-1154x888.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/npm/package/naya-flore",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/npm/package/naya-flore/files/4.7.2/lib/Socket/socket.js#L310",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://github.com/SocketDev/socket-mcp",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://twitter.com/SocketSecurity",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://docs.socket.dev",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://github.com/SocketDev",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/npm/package/nvlore-hsc",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://www.w3.org/2000/svg",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/fd2f60fc507cb6ca82b7a47784e75081f0b34034-2048x1826.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/86b95cad5f9b483f702c5406dc9d819a860e61e7-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://raw[.]githubusercontent[.]com/navaLinh/database/main/seska.json",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/7cb4122d637d8b6c4c4dc6427832b5c1ba993f0b-1024x1024.png?w=1000",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/npm/user/nayflore",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://api[.]verylinh[.]my[.]id/running&#x27",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/7cb4122d637d8b6c4c4dc6427832b5c1ba993f0b-1024x1024.png?w=1000&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/ae2ae799b2e9ba834168d41a5d659d2cc61558c5-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://api[.]verylinh[.]my[.]id/running",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/features/cli",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/0d278fa58ffe7d0dede323f27789ba7903d41cfb-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://status.socket.dev",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://discord.gg/JkhgPpXDSd",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/blog/malicious-npm-packages-target-whatsapp-developers-with-remote-kill-switch",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/npm/package/nvlore-hsc/files/2.6.9/lib/Socket/socket.js#L442",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://feedback.socket.dev",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/features/github",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://socket.dev/features/web-extension",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.sanity.io/images/cgdhsj6q/production/9bf6845e9d1dedb00c4d7156c0673ec97403c85c-512x512.jpg?w=100&amp;q=95&amp;fit=max&amp;auto=format",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "2fcdn.sanity.io",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "cdn.sanity.io",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "config.mobile",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "d.map",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "data.data.map",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "discord.gg",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "docs.socket.dev",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "feedback.socket.dev",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "github.com",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "socket.dev",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "status.socket.dev",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "twitter.com",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.linkedin.com",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.w3.org",
+        "comment": "Extracted from Malicious npm Packages Target WhatsApp Developers with Remot....html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "ip-dst",
+        "value": "16.35.19.11",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "md5",
+        "value": "b59d7c331e96be96bcfa2633b5f32f2c",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "d58dade6ea03af145d29d896f56b2063e2b078a4",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "21a9ca6028992828c9c360d752cb033603a2fd93",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "2bc75023f6a4c50b21eb54d1394a7b8417608728",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "43cd3f8675e25816619f77b047ea5205b6491137c5b77cce058533a07bdc9f98",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "6fc26e8ac9c44a8e461a18b20929f345f8cfc86e9a454eae3509084cf6ece3be",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "e1ed281c521ad72484c7e5e74e50572b48ea945543c6bcbd480f698c2812cdfe",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "c793304fabb09bb631610f17097b2420ee0209bab87bb2e6811d24b252a1b05d",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "597d4011deb4f08540e10d1419b5cbdfb38506ed53a5c0ccfb12f96c74f4a7a1",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "a44aa98dd837010265e4af1782b57989de07949f0c704a6325f75af956cc85de",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "e5e418da909f73050b0b38676f93ca8f0551981894e2120fb50e8f03f4e2df4f",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "61557a55ad40b8c40f363c4760033ef3f4178bf92ce0db657003e718dffd25bd",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "ce1ba2a584c7940e499194972e1bd6f829ffbae2ecf2148cdb03ceeca906d151",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "3a6d5694eec724726efa3327a50fad3efdc623c08d647b51e51cd578bddda3da",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=300,163",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2020/01/gabor-szappanos-threat-research-director-sophosLabs.jpeg?w=400",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/de-de",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.sophos.com%2Fen-us%2F2025%2F08%2F06%2Fshared-secret-edr-killer-in-the-kill-chain%2F",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.sophos.com/en-us/legal.aspx",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://www.linkedin.com/shareArticle?mini=true&url=https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image9.png?resize=768,277",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image5.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.sophos.com/en-us/legal/sophos-website.aspx",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig01.png?resize=300,82",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=768,426",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/mu-plugins/jetpack-14.8/_inc/build/sharedaddy/sharing.min.js?ver=14.8",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image4.png?resize=871,1024",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig01.png?resize=768,209",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=300,167",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=mastodon",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=1024,556",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-includes/css/dist/block-library/style.min.css?m=1754500264g",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/_static/??/wp-content/themes/sophosnews-2017/js/sophos-mc-validate.js,/wp-includes/js/comment-reply.min.js?m=1754920402j",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/?p=961780",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://i0.wp.com/news.sophos.com/wp-content/uploads/2025/08/sophos-icon-512x512-1.png?w=64",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image5.png?resize=300,79",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image3.png?resize=1024,825",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/sophos-icon-512x512-1.png?w=192",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://twitter.com/intent/tweet?text=Shared%20secret%3A%20EDR%20killer%20in%20the%20kill%20chain%20https%3A%2F%2Fnews.sophos.com%2F%3Fp%3D961780",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.trellix.com/blogs/research/analysis-of-black-basta-ransomware-chat-leaks/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image9.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/nl-nl/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://x.com/threatintel/status/1879909266250932226",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image9.png?resize=300,108",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2021/05/sophos-ransomware-web-banner-1200x628px-option-2.png?w=640",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2022/03/Steeve_Gaudreault.jpeg?w=400",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=1536,834",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2024/08/14/edr-kill-shifter/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image4.png?resize=255,300",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2021/05/sophos-edr-news-blog-image-838x440px@2x.png?w=640",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/category/threat-research/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/_static/??-eJyNjkEOwiAQRS8kHSCY6sJ4FENgAigMxIE0vX1bV7pz997iv3xYmnCVOlKHHrEgA9cWKxMuLLRUM3BfM+6o1eSYT/C1KEO0PEIihif2Zt1LKDNdoFQ/8pGK9o3eer9+MFH4O/FI5PYrLtkscg2Vf2QqiY7UvdzUfDZXLY3UG2n6SDY=",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image5.png?resize=1024,268",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2021/05/24/what-to-expect-when-youve-been-hit-with-avaddon-ransomware/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/it-it/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.sophos.com%2Fen-us%2F2025%2F08%2F06%2Fshared-secret-edr-killer-in-the-kill-chain%2F&#038;format=xml",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.sophos.com/en-us/legal/cookie-information.aspx",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/_static/??-eJzTLy/QzcxLzilNSS3WzwKiwtLUokoopZebmaeXVayjj0+Rbm5melFiSSpUsX2uraG5qYmpgYGRmWkWAK9eIhs=",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://github.com/sophoslabs/IoCs/blob/master/06082025-edrkiller-iocs.csv",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=768,417",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image4.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image5.png?resize=768,201",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://stats.wp.com/e-202533.js",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/zh-tw/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/xmlrpc.php",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=2048,1112",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png?resize=768,856",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image7.png?resize=782,1024",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=email",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://api.w.org/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/xmlrpc.php?rsd",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image3.png?resize=300,242",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?w=640",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://www.facebook.com/share.php?u=https://news.sophos.com/?p=961780&#038;title=Shared%20secret:%20EDR%20killer%20in%20the%20kill%20chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image6.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image7.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.sophos.com/en-us/legal/sophos-group-privacy-policy.aspx",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=pocket",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image7.png?resize=768,1006",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image2.png?resize=300,78",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/_static/??-eJyVjFsKwyAQRTdUxwcpoR+laxEZEk10xJk2XX4t2UCE+3U45+qjqkBFsIiWFTOyZqorccGDlTN21on7ukRbRPVx4MB2ACeAxDd96SNQG7DxK83zdf9E8Ja4j1fB5+rjUobD6psUbMPd4oeTP+vRKz/tfJ8ezkzGpR+glqA6",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png?resize=269,300",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/ja-jp",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.scootersoftware.com/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://cdn.cookielaw.org/consent/2e456f46-6b86-42c8-be0a-01efd4471533/OtAutoBlock.js",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=1536,853",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/tag/edr-killer/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.googletagmanager.com/ns.html?id=GTM-TW8W88B",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image3.png?resize=768,619",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/tag/ransomhub/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/tag/featured/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/de-de/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/category/products-services/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image2.png?resize=768,199",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=1024,568",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://sophos.us2.list-manage.com/subscribe/post?u=2a2849a8c809119f4bd4929cc&amp;id=8d6471d831&amp;f_id=007062e1f0",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=tumblr",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/mu-plugins/search/elasticpress/dist/css/related-posts-block-styles.min.css?m=1753141563g",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image4.png?resize=768,903",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.sophos.com/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.horizon3.ai/attack-research/disclosures/critical-vulnerabilities-in-simplehelp-remote-support-software/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=reddit",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/pt-br",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/fr-fr/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2021/05/19/sophos-xdr-driven-by-data/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/author/gabor-szappanos/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/ja-jp/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/es-419/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image9.png?resize=1024,370",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/comments/feed/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/pt-br/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/author/steeve/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig01.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/sophos-icon-512x512-1.png?w=270",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/en/eset-research/shifting-sands-ransomhub-edrkillshifter/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.sophos.com/en-us/legal/modern-slavery-act-transparency-statement.aspx",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/tag/heartcrypt/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image3.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://gmpg.org/xfn/11",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2021/05/sophos-xdr.png?w=640",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/it-it",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image2.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image2.png?resize=1024,265",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png?resize=919,1024",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://unpkg.com/alpinejs@2.8.1/dist/alpine.js?ver=2.0.3",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=linkedin",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-json/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/es-es",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=2048,1137",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image7.png?resize=229,300",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/fr-fr",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=bluesky",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-comments-post.php",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.youtube.com/watch?v=PcK6UwJQULw",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2022/07/Category-Icon-X-Ops-v2.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://infosec.exchange/@SophosXOps",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?w=1200",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://www.w3.org/2000/svg",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/feed/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://secure.ethicspoint.eu/domain/media/en/gui/104916/index.html",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/#print?share=print",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.cylerian.com/blog/t_2024_10_24_inside_the_attack/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/category/sophos-life/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/tag/sophos-x-ops/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/es-es/2025/08/06/shared-secret-edr-killer-in-the-kill-chain",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image9.png?resize=1536,554",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpqbmpgaGBiZmQIARKsu3g==",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/es-419",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png?resize=1379,1536",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/feed/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/2021/05/19/whats-new-in-sophos-edr-4-0/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/mu-plugins/akismet/_inc/akismet-frontend.js?m=1753141561g",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/sophos-icon-512x512-1.png?w=32",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-json/wp/v2/posts/961780",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/category/security-operations/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/image9.png?resize=2048,739",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/wp-content/uploads/2025/08/sophos-icon-512x512-1.png?w=180",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/tag/avkiller/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://news.sophos.com/en-us/category/ai-research/",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "alpinejs@2.8.1",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "name@email.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "sophos-edr-news-blog-image-838x440px@2x.png",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": ".wp-block-co-authors-plus-coauthors.is",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": ".wp-block-columns.is",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": ".wp-block-post-template.is",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "2fnews.sophos.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "api.w.org",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "cdn-images.mailchimp.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "cdn.cookielaw.org",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "e.data",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "email.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "event.target",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "github.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "gmpg.org",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "horizon3.al",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "i0.wp.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "infosec.exchange",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "n.data",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "news.sophos.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "s.w.org",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "secure.ethicspoint.eu",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "sophos.us2.list-manage.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "stats.wp.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "twitter.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "unit42.paloaltonetworks.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "unpkg.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "v0.wordpress.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "window.open",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.cylerian.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.facebook.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.googletagmanager.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.horizon3.ai",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.linkedin.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.scootersoftware.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.sophos.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.trellix.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.w3.org",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.welivesecurity.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.youtube.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "x.com",
+        "comment": "Extracted from Shared secret_ EDR killer in the kill chain \u2013 Sophos News.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "ip-dst",
+        "value": "147.92.69.0",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "ip-dst",
+        "value": "9.7.4.4",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "ip-dst",
+        "value": "184.150.66.62",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha1",
+        "value": "01D32FE88ECDEA2B934A00805E138034BF85BF83",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "sha256",
+        "value": "2a8fafa01f6d3863c87f20905736ebab28d6a5753ab708760c0b6cf3970828c3",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.microsoft.com/en-us/security/blog/2023/07/11/storm-0978-attacks-reveal-financial-and-espionage-motives/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1588/006",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1021",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://unit42.paloaltonetworks.com/snipbot-romcom-malware-variant/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://github.com/eset/malware-ioc/tree/master/romcom",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://strontic.github.io/xcyclopedia/library/clsid_1299CF18-C4F5-4B6A-BB0F-2299F0398E27.html",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.eset.com/us/business/services/threat-intelligence/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/wls/2025/08-25/winrar/figure-2.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://github.com/MythicC2Profiles/dynamichttp",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.zerodayinitiative.com/advisories/ZDI-25-409/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://docs.mythic-c2.net/operational-pieces/c2-profiles/dynamichttp",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1560",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://nvd.nist.gov/vuln/detail/CVE-2024-9680",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x82/wls/2025/07-25/asyncrat/asyncrat-eset-research.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/tableOfContents-3064eaf8.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1087",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1546/015/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/prism-40d1b0a4.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://twitter.com/ESET",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1027/007",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/en/eset-research/romcom-exploits-firefox-and-windows-zero-days-in-the-wild/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1657",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/FedraSansAltPro-BookLF-405f3258.woff",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://gohazeldale[.]com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/prism-40494b65.css",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/FedraSansAltPro-DemiLF-8885b886.woff",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://nvd.nist.gov/vuln/detail/CVE-2025-6218",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/c54dec26-1551-4d3a-a0ea-4fa40f848eb3",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x145/wls/2025/06-25/research-eset-gamaredon-spearphishing-ukraine.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/wls/2025/08-25/winrar/figure-1.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.linkedin.com/company/eset",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x82/wls/2024/11-2024/firefox-windows-zero-days-romcom.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1480",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/wls/2025/08-25/winrar/figure-5.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://blogs.blackberry.com/en/2023/07/romcom-targets-ukraine-nato-membership-talks-at-nato-summit",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://bi.zone/expertise/blog/paper-werewolf-atakuet-rossiyu-s-ispolzovaniem-uyazvimosti-nulevogo-dnya-v-winrar/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://youtube.com/esetglobal",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1546/015",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x82/wls/2025/07-25/toolshell/toolshell-vulnerability-exploitation-research-eset.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/search-9bd6bdd3.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://nvd.nist.gov/vuln/detail/CVE-2024-49039",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x45/wls/2024/11-2024/eset-research.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/app-c4cc4fd9.css",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.facebook.com/sharer/sharer.php?u&#x3D;https://www.welivesecurity.com/en/eset-research/update-winrar-tools-now-romcom-and-others-exploiting-zero-day-vulnerability/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x700/wls/2025/08-25/winrar/winrar-zeroday-vulnerability-romcom-apt-eset-research.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x45/wls/damien-schaeffer.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1552/001",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x145/wls/2025/07-25/asyncrat/asyncrat-eset-research.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/article-header-4f98b0a2.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/scrollToTopBtn-bfad6333.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1204/002",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1114/001",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://github.com/NoMoreFood/putty-cac",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1041",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/wls/2025/08-25/winrar/winrar-zeroday-vulnerability-romcom-apt-eset-research.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1587/001",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1113",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/table-wrapper-135558d1.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://srlaptop[.]com/s/0.7.8/clarity.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x82/wls/2025/06-25/research-eset-gamaredon-spearphishing-ukraine.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://docs.mythic-c2.net/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x45/wls/2021/03/microsoft-exchange-servers-under-siege-10-apt-groups.jpg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.virustotal.com/gui/file/2a8fafa01f6d3863c87f20905736ebab28d6a5753ab708760c0b6cf3970828c3",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x45/wls/2020/03/Anton_Cherepanov.jpg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://s.go-mpulse.net/boomerang/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.googletagmanager.com/ns.html?id=GTM-PMDGSM",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.linkedin.com/shareArticle?mini&#x3D;true&amp;url&#x3D;https://www.welivesecurity.com/en/eset-research/update-winrar-tools-now-romcom-and-others-exploiting-zero-day-vulnerability/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/resources/versions/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x45/wls/2024/11-2024/firefox-windows-zero-days-romcom.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.facebook.com/eset/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://melamorri[.]com/iEZGPctehTZ",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/article-98874652.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://enjoy.eset.com/pub/rf",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/app-7a4ecde0.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1027/013",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://twitter.com/intent/tweet?url&#x3D;https://www.welivesecurity.com/en/eset-research/update-winrar-tools-now-romcom-and-others-exploiting-zero-day-vulnerability/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1036/001",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1005",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/en/eset-research/update-winrar-tools-now-romcom-and-others-exploiting-zero-day-vulnerability/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1547/001",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/wls/2025/08-25/winrar/figure-7.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.win-rar.com/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/rss-configurator/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x266/wls/2025/08-25/winrar/winrar-zeroday-vulnerability-romcom-apt-eset-research.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://nvd.nist.gov/vuln/detail/CVE-2023-36884",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://campanole[.]com/TOfrPOseJKZ",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/FedraSansAltPro-BoldLF-31f4bc72.woff",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/wls/2025/08-25/winrar/figure-8.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1573/002",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x82/wls/2021/03/microsoft-exchange-servers-under-siege-10-apt-groups.jpg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/wls/eti-eset-threat-intelligence.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.proofpoint.com/us/blog/threat-insight/10-things-i-hate-about-attribution-romcom-vs-transferloader",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1566/001",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/article-e3625c4c.css",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1185",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x425/wls/2025/08-25/winrar/winrar-zeroday-vulnerability-romcom-apt-eset-research.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://welivesecurity.disqus.com/embed.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x82/wls/2023/2023-10/winter-wivern/one-login.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/_commonjsHelpers-042e6b4d.js",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1071/001",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x45/wls/2023/2023-10/winter-wivern/one-login.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/tn/-x145/wls/2025/07-25/toolshell/toolshell-vulnerability-exploitation-research-eset.jpeg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.eset.com/int/business/services/threat-intelligence/?utm_source=welivesecurity.com&amp;utm_medium=referral&amp;utm_campaign=wls-research&amp;utm_content=update-winrar-tools-now-romcom-and-others-exploiting-zero-day-vulnerability&amp;sfdccampaignid=7011n0000017htTAAQ",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://blog.talosintelligence.com/uat-5647-romcom/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1588/005",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1555/003",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/wls/2025/08-25/winrar/figure-3-1.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1583",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1518",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "http://www.w3.org/2000/svg",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://nvd.nist.gov/vuln/detail/CVE-2025-8088",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://s2.go-mpulse.net/boomerang/",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1497",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.eset.com/us",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://www.welivesecurity.com/build/assets/eset-threat-intelligence-d0944f00.webp",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1587/004",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://web-assets.esetstatic.com/wls/2025/08-25/winrar/figure-4.png",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "url",
+        "value": "https://attack.mitre.org/versions/v17/techniques/T1608",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "threatintel@eset.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "3tiafratferpate@seznam.cz",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "93geoprobmenfuuu@seznam.cz",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "93leocarperpiyd@seznam.cz",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "stefanmuribi@gmx.net",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "emponafinpu@gmx.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "geoshilovyf@gmx.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "2constheatcomshirl@seznam.cz",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "patricklofiri@gmx.net",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "email-src",
+        "value": "sampnestpihydbi@gmx.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "ak.ai",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "ak.cr",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "ak.gh",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "ak.tf",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "attack.mitre.org",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "bi.zone",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "blog.talosintelligence.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "blogs.blackberry.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "docs.mythic-c2.net",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "document.open",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "e.id",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "enjoy.eset.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "eset.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "github.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "gmx.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "gmx.net",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "learn.microsoft.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "nvd.nist.gov",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "o.document.open",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "r.as",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "rua.ieh.st",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "s.go-mpulse.net",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "s2.go-mpulse.net",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "seznam.cz",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "snoelr5yszbcu2e3onla-f-0aa3e42ad-clientnsv4-s.akamaihd.net",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "strontic.github.io",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "t.id",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "twitter.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "unit42.paloaltonetworks.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "web-assets.esetstatic.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "welivesecurity.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "welivesecurity.disqus.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.eset.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.facebook.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.googletagmanager.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.linkedin.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.microsoft.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.proofpoint.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.virustotal.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.w3.org",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.welivesecurity.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.win-rar.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "www.zerodayinitiative.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      },
+      {
+        "category": "Network activity",
+        "type": "domain",
+        "value": "youtube.com",
+        "comment": "Extracted from Update WinRAR tools now_ RomCom and others exploiting zero-day vulnerability.html",
+        "to_ids": true
+      }
+    ]
+  }
+}

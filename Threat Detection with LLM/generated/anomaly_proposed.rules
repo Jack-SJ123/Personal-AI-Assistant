@@ -1,0 +1,1 @@
+alert ip 10.0.0.7 any -> any any (msg:"Anomalous host detected"; sid:4300001; rev:1;)

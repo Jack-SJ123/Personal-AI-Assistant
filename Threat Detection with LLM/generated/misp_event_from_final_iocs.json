@@ -1,0 +1,43 @@
+{
+  "Event": {
+    "id": "10493",
+    "orgc_id": "1",
+    "org_id": "1",
+    "date": "2025-08-13",
+    "threat_level_id": "2",
+    "info": "Home-lab: final_iocs (VT 200-only) pushed to MISP",
+    "published": false,
+    "uuid": "ae3dafa7-04f2-406d-bdcc-73168bf975d0",
+    "attribute_count": "0",
+    "analysis": "2",
+    "timestamp": "1755112628",
+    "distribution": "0",
+    "proposal_email_lock": false,
+    "locked": false,
+    "publish_timestamp": "0",
+    "sharing_group_id": "0",
+    "disable_correlation": false,
+    "extends_uuid": "",
+    "protected": null,
+    "event_creator_email": "admin@admin.test",
+    "Org": {
+      "id": "1",
+      "name": "ADMIN",
+      "uuid": "ce034c06-7ffc-4c39-b374-432d0a216253",
+      "local": true
+    },
+    "Orgc": {
+      "id": "1",
+      "name": "ADMIN",
+      "uuid": "ce034c06-7ffc-4c39-b374-432d0a216253",
+      "local": true
+    },
+    "Attribute": [],
+    "ShadowAttribute": [],
+    "RelatedEvent": [],
+    "Galaxy": [],
+    "Object": [],
+    "EventReport": [],
+    "CryptographicKey": []
+  }
+}

@@ -1,0 +1,6 @@
+{"timestamp": "2025-01-01T12:00:00.000Z", "event_type": "flow", "src_ip": "10.0.0.5", "dest_ip": "185.199.110.153", "proto": "TCP", "bytes_toserver": 2048, "bytes_toclient": 512}
+{"timestamp": "2025-01-01T12:00:01.000Z", "event_type": "alert", "src_ip": "10.0.0.5", "dest_ip": "185.199.110.153", "alert": {"signature_id": 900001, "signature": "Suspicious outbound connection", "category": "A Potentially Bad Thing"}}
+{"timestamp": "2025-01-01T12:00:10.000Z", "event_type": "flow", "src_ip": "10.0.0.6", "dest_ip": "185.199.110.153", "proto": "TCP", "bytes_toserver": 1024, "bytes_toclient": 512}
+{"timestamp": "2025-01-01T12:00:11.000Z", "event_type": "alert", "src_ip": "10.0.0.6", "dest_ip": "185.199.110.153", "alert": {"signature_id": 900002, "signature": "Suspicious outbound connection", "category": "A Potentially Bad Thing"}}
+{"timestamp": "2025-01-01T12:00:20.000Z", "event_type": "flow", "src_ip": "10.0.0.7", "dest_ip": "185.199.110.153", "proto": "TCP", "bytes_toserver": 2048, "bytes_toclient": 1024}
+{"timestamp": "2025-01-01T12:00:21.000Z", "event_type": "alert", "src_ip": "10.0.0.7", "dest_ip": "185.199.110.153", "alert": {"signature_id": 900003, "signature": "Suspicious outbound connection", "category": "A Potentially Bad Thing"}}

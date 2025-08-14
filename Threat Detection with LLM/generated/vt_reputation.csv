@@ -1,0 +1,305 @@
+type,value,malicious,suspicious,undetected,harmless,reputation,last_analysis_date,http_status,error
+file,01D32FE88ECDEA2B934A00805E138034BF85BF83,,,,,,,404,VT status 404
+file,01d15f655c45c517f52235d63932fb377c319176239426681412afb01bf39dcc,,,,,,,404,VT status 404
+file,05a8e10251a29faf31d7da5b9adec4be90816238,26.0,0.0,43.0,0.0,-1.0,1754978915.0,200,
+file,06fcb4adf8ca6201fc9e3ec72d53ca627e6d9532,25.0,0.0,41.0,0.0,-2.0,1754964554.0,200,
+file,07372dc1581f6b0fed6246998585bccd6d3d4e5c,,,,,,,404,VT status 404
+file,0813a1e82be8b8f54bb0dc053aac350f,,,,,,,404,VT status 404
+file,08f517d4fb4428380d01d4dd7280b62042f9e863,20.0,0.0,41.0,0.0,-55.0,1754653014.0,200,
+file,093b03da7439a0fea94ce565be425e54,,,,,,,404,VT status 404
+file,0c472b96ecc1353fc9259e1b8750cdfe0b957e4f,10.0,0.0,59.0,0.0,-2.0,1754978914.0,200,
+file,0d278fa58ffe7d0dede323f27789ba7903d41cfb,,,,,,,404,VT status 404
+file,0d2a16abdb3520c5e27eec7496990a360b161b91,,,,,,,404,VT status 404
+file,0e3145f69c4fb40577f32d6893d2038ea469255b,,,,,,,404,VT status 404
+file,11f048838dabd650892acff3dd777035,,,,,,,404,VT status 404
+file,13fafb1ae2d5de024e68f2e2fc820bc79ef0690c40dbfd70246bcc394c52ea20,47.0,0.0,24.0,0.0,-67.0,1755021427.0,200,
+file,1594331d444d1a1562cd955aefff33a0ee838ac9,17.0,0.0,51.0,0.0,-1.0,1754978918.0,200,
+file,16f83f056177c4ec24c7e99d01ca9d9d6713bd0497eeedb777a3ffefa99c97f0,1.0,0.0,71.0,0.0,-1.0,1754985763.0,200,
+file,1783af05e7cd52bbb16f714e878bfa9ad02b6388,10.0,0.0,58.0,0.0,-2.0,1754964562.0,200,
+file,185d10800458ab855599695cd85d06e630f7323d,0.0,0.0,64.0,0.0,-1.0,1754939984.0,200,
+file,1aa5a0e7bfb995fc2f3ba0e54b59e7877b5d8fd3,19.0,0.0,44.0,0.0,-54.0,1754743134.0,200,
+file,1b022ac761a077f0116bb427b6cf8315a86aa654ae0cd55a6616647bbeb769c4,27.0,0.0,40.0,0.0,-53.0,1754645135.0,200,
+file,1ba07bbeb2e8d4af8827f6d5b539c0daf2c049ffefb5c28201e078e338944e20,,,,,,,404,VT status 404
+file,1ded919732da144e02a015d2156ecef5,,,,,,,404,VT status 404
+file,21889ac11c8bb50190eef06acc4d55175a183254,,,,,,,404,VT status 404
+file,21a9ca6028992828c9c360d752cb033603a2fd93,45.0,0.0,27.0,0.0,0.0,1755032684.0,200,
+file,22b0c2e9a52ef0f7a91dfb83688134c9f6d34049b8c9cc2841710fc8806942a2,,,,,,,404,VT status 404
+file,239ccaf577d58afee12db147eac1b5944c0d078c26de2103fe73232803770ae2,,,,,,,404,VT status 404
+file,23c61ad383c54b82922818edcc0728e9ef6c984d,22.0,0.0,46.0,0.0,-2.0,1754978913.0,200,
+file,2486c036a322a5b0d9d09c64a690892d85347dee,,,,,,,404,VT status 404
+file,2a8fafa01f6d3863c87f20905736ebab28d6a5753ab708760c0b6cf3970828c3,17.0,0.0,47.0,0.0,-1.0,1755047717.0,200,
+file,2b55430b90a500cb2bb9ddc530aeb1ffb8d2f8878148b7204ab7ef998d66eb9d,14.0,0.0,48.0,0.0,-1.0,1755014456.0,200,
+file,2bc75023f6a4c50b21eb54d1394a7b8417608728,52.0,0.0,20.0,0.0,-60.0,1754965412.0,200,
+file,2ebb5d7e16b1c7130b1559068c97f92c,,,,,,,404,VT status 404
+file,345c59394303bb5daf1d97e0dda894ad065fedf6,22.0,0.0,41.0,0.0,-2.0,1754964564.0,200,
+file,36f9003f53fb3defb80434a63e1c5676,,,,,,,404,VT status 404
+file,37e4039bd2135d3253328fea0f6ff1ca60ec4050,28.0,0.0,41.0,0.0,-1.0,1754978921.0,200,
+file,3a20b574e12ffb8a55f1fb5dc91c91245a5195e8,21.0,0.0,45.0,0.0,-1.0,1754978912.0,200,
+file,3a6d5694eec724726efa3327a50fad3efdc623c08d647b51e51cd578bddda3da,62.0,0.0,10.0,0.0,-103.0,1755032685.0,200,
+file,3afb5fc3abde8719b90ce1130d1f2929e4b87fbc,,,,,,,404,VT status 404
+file,3d38abc7786a1b01e06cc46a8c660f48849b2b5f,23.0,0.0,47.0,0.0,-54.0,1754653000.0,200,
+file,3d56d717695c931f19851b408f4760f8,,,,,,,404,VT status 404
+file,3e9198e9546fa73ef93946f272093092363eb3e2,28.0,0.0,40.0,0.0,-1.0,1754908869.0,200,
+file,3f0071d64edd72d7d92571cf5e4a5e82720c5a9b,10.0,0.0,59.0,0.0,-2.0,1754978909.0,200,
+file,40795ca0880ea7418a45c66925c200edcddf939e,0.0,0.0,64.0,0.0,-1.0,1754651205.0,200,
+file,407df08aff048b7d05fd7636be3bc9baa699646d,23.0,0.0,44.0,0.0,-2.0,1754651220.0,200,
+file,42be7542a024ee54d75f04ae145eed17,,,,,,,404,VT status 404
+file,42f3f9d2684328575847f3115fcd6f759cc47b0f21b3d4fea480de0f34a1e947,45.0,0.0,27.0,0.0,-1.0,1754994192.0,200,
+file,43cd3f8675e25816619f77b047ea5205b6491137c5b77cce058533a07bdc9f98,55.0,0.0,17.0,0.0,-112.0,1754997004.0,200,
+file,44feb2d7d7eabf78a46e6cc6abdd281f993ab301,20.0,0.0,43.0,0.0,-1.0,1754964559.0,200,
+file,4528215707a923404e3ca7667b656ae50cef54ef,21.0,0.0,43.0,0.0,-2.0,1755038270.0,200,
+file,4607f6c04f0c4dc4ee5bb68ee297f67ccdcff189,11.0,0.0,58.0,0.0,-1.0,1755028411.0,200,
+file,477f38004f3c5b13398ff6abe718e925af36ae0b,,,,,,,404,VT status 404
+file,48325c530f838db2d7b9e5e5abfa3ba8e9af1215,20.0,0.0,46.0,0.0,-1.0,1754978920.0,200,
+file,48d6350afa5b92958fa13c86d61be30f08a3ff0c,26.0,0.0,42.0,0.0,-1.0,1754824528.0,200,
+file,4a7d1ed414474e4033ac29ccb8653d9b,0.0,0.0,62.0,0.0,29.0,1728103755.0,200,
+file,4a8bf419424ff42b736a51472d35a2c172e4c60b762c519b0b2f9eb04690726c,47.0,0.0,25.0,0.0,-2.0,1754989388.0,200,
+file,4ab9c1565f740743a9d93ca4dd51c5d6b8b8a5b6,47.0,0.0,25.0,0.0,-54.0,1754904583.0,200,
+file,4b11bd58a2c25aa185b75aeb99529ea3,,,,,,,404,VT status 404
+file,4dcf4b2d07a2ce59515ed3633386addff227f7bd,22.0,0.0,47.0,0.0,-1.0,1754978910.0,200,
+file,4f3da863b83dbd3f9ed9ad82a15ccf32,,,,,,,404,VT status 404
+file,50ca442a1a167753fdc9e96f28129fed,,,,,,,404,VT status 404
+file,51866c6e9cad8713f542dd063135d2b49a1a43de,,,,,,,404,VT status 404
+file,5246e098dc625485b467edd036d86fd363d75aae,23.0,0.0,45.0,0.0,-1.0,1754978908.0,200,
+file,531c1e8cf7f74bd0356ed5ab4e09bad1,,,,,,,404,VT status 404
+file,533960d38e6fee7546cdea74254bccd1af8cbb65,16.0,0.0,47.0,0.0,-2.0,1754782298.0,200,
+file,53b8d2f10b8136bdb7e1441a4f0d5130,,,,,,,404,VT status 404
+file,540227c86887eb4460c4d59b8dea2a2dd0e575b7,20.0,0.0,44.0,0.0,-1.0,1754964564.0,200,
+file,56718b6a5609239b03eb3fe1afd476ee7754c16af3429ba067dc1d6b89ec7d12,,,,,,,404,VT status 404
+file,597d4011deb4f08540e10d1419b5cbdfb38506ed53a5c0ccfb12f96c74f4a7a1,,,,,,,404,VT status 404
+file,5b60e1b7458cef383c45998204bbaac5eacbb7ee,13.0,0.0,55.0,0.0,-1.0,1755050956.0,200,
+file,612f61b2084820a1fcd5516dc74a23c1b6eaa105,23.0,0.0,44.0,0.0,-1.0,1754872556.0,200,
+file,61557a55ad40b8c40f363c4760033ef3f4178bf92ce0db657003e718dffd25bd,,,,,,,404,VT status 404
+file,61a0cb64ca1ba349550176ef0f874dd28eb0abfa,24.0,0.0,44.0,0.0,-2.0,1754651600.0,200,
+file,61da02ebe74e1e6e648ae47081530f2d5b59de04,,,,,,,404,VT status 404
+file,6393b23bc20c2aaa71cb4e1597ed26de48ff33e2,21.0,0.0,47.0,0.0,-1.0,1754964549.0,200,
+file,65c11e7a61ac10476ed4bfc501c27e2aea47e43a,30.0,0.0,39.0,0.0,-1.0,1754978906.0,200,
+file,6fc26e8ac9c44a8e461a18b20929f345f8cfc86e9a454eae3509084cf6ece3be,,,,,,,404,VT status 404
+file,7cb4122d637d8b6c4c4dc6427832b5c1ba993f0b,,,,,,,404,VT status 404
+file,844013025bf7c5d01e6f48df0e990103ad3c333be31f54cf5301e1463f6ca441,28.0,0.0,37.0,0.0,-1.0,1754994469.0,200,
+file,86b95cad5f9b483f702c5406dc9d819a860e61e7,,,,,,,404,VT status 404
+file,9bf6845e9d1dedb00c4d7156c0673ec97403c85c,,,,,,,404,VT status 404
+file,a44aa98dd837010265e4af1782b57989de07949f0c704a6325f75af956cc85de,39.0,0.0,33.0,0.0,0.0,1755032694.0,200,
+file,a71515277b747364bc1385d01c6027bc60f66a15,,,,,,,404,VT status 404
+file,ae2ae799b2e9ba834168d41a5d659d2cc61558c5,,,,,,,404,VT status 404
+file,b59d7c331e96be96bcfa2633b5f32f2c,55.0,0.0,17.0,0.0,-112.0,1754997004.0,200,
+file,c793304fabb09bb631610f17097b2420ee0209bab87bb2e6811d24b252a1b05d,,,,,,,404,VT status 404
+file,c8ae8d69f465f2d1ca88907e75471299acbb76b5663dacca1520aaa4d99d7b43,14.0,0.0,48.0,0.0,-2.0,1754994343.0,200,
+file,c9a612f2e8ef0788a271716cc8eae4129e3720f0,,,,,,,404,VT status 404
+file,ce1ba2a584c7940e499194972e1bd6f829ffbae2ecf2148cdb03ceeca906d151,,,,,,,404,VT status 404
+file,d58dade6ea03af145d29d896f56b2063e2b078a4,55.0,0.0,17.0,0.0,-112.0,1754997004.0,200,
+file,e18d6a3f4746e0600888926a2b97a2b8c3f0a29c,,,,,,,404,VT status 404
+file,e1ed281c521ad72484c7e5e74e50572b48ea945543c6bcbd480f698c2812cdfe,,,,,,,404,VT status 404
+file,e5e418da909f73050b0b38676f93ca8f0551981894e2120fb50e8f03f4e2df4f,,,,,,,404,VT status 404
+file,ec8bdee1c73de2b3488646aa1b77316664ea7751,,,,,,,404,VT status 404
+file,f45af82ed4a12663266ba927d6ef59babed2dbfc,,,,,,,404,VT status 404
+file,fd2f60fc507cb6ca82b7a47784e75081f0b34034,,,,,,,404,VT status 404
+file,ff1c0dd60d9d708ad800064f6724d3d541a141ce,,,,,,,404,VT status 404
+url,http://github.com/logrange/linker,1.0,0.0,27.0,69.0,0.0,1754662761.0,200,
+url,http://gmpg.org/xfn/11,0.0,0.0,28.0,69.0,-169.0,1754882513.0,200,
+url,http://klarrio.io,0.0,0.0,32.0,65.0,0.0,1754534491.0,200,
+url,http://pkg.go.dev,0.0,0.0,29.0,68.0,0.0,1755011023.0,200,
+url,http://twitter.com/intent/tweet?text=Shared%20secret%3A%20EDR%20killer%20in%20the%20kill%20chain%20https%3A%2F%2Fnews.sophos.com%2F%3Fp%3D961780,,,,,,,404,VT status 404
+url,http://www.facebook.com/share.php?u=https://news.sophos.com/?p=961780&#038;title=Shared%20secret:%20EDR%20killer%20in%20the%20kill%20chain,,,,,,,404,VT status 404
+url,http://www.linkedin.com/shareArticle?mini=true&url=https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/,,,,,,,404,VT status 404
+url,http://www.w3.org/2000/svg,0.0,0.0,29.0,68.0,-29.0,1755053149.0,200,
+url,https://alturastreet[.]icu/storage/de373d0df/a31546bf,11.0,1.0,28.0,57.0,0.0,1755013429.0,200,
+url,https://api.w.org/,0.0,0.0,29.0,68.0,-54.0,1754633893.0,200,
+url,https://api[.]verylinh[.]my[.]id/running,1.0,1.0,30.0,65.0,0.0,1754949126.0,200,
+url,https://api[.]verylinh[.]my[.]id/running&#x27,,,,,,,404,VT status 404
+url,https://attack.mitre.org/resources/versions/,0.0,1.0,28.0,68.0,0.0,1751968255.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1005,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1021,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1027/007,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1027/013,0.0,1.0,28.0,68.0,0.0,1751521571.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1036/001,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1041,0.0,1.0,28.0,68.0,0.0,1751521571.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1071/001,0.0,1.0,29.0,67.0,0.0,1751521571.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1087,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1113,0.0,1.0,29.0,67.0,0.0,1751521571.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1114/001,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1185,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1204/002,0.0,1.0,28.0,68.0,0.0,1751521570.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1480,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1497,0.0,1.0,29.0,67.0,0.0,1751362504.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1518,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1546/015,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1546/015/,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1547/001,0.0,1.0,29.0,67.0,0.0,1751521571.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1552/001,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1555/003,0.0,1.0,28.0,68.0,0.0,1751521571.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1560,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1566/001,0.0,1.0,28.0,68.0,0.0,1751521571.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1573/002,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1583,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1587/001,0.0,1.0,29.0,67.0,0.0,1751521571.0,200,
+url,https://attack.mitre.org/versions/v17/techniques/T1587/004,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1588/005,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1588/006,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1608,,,,,,,404,VT status 404
+url,https://attack.mitre.org/versions/v17/techniques/T1657,,,,,,,404,VT status 404
+url,https://bi.zone/expertise/blog/paper-werewolf-atakuet-rossiyu-s-ispolzovaniem-uyazvimosti-nulevogo-dnya-v-winrar/,,,,,,,404,VT status 404
+url,https://blog.talosintelligence.com/uat-5647-romcom/,0.0,1.0,28.0,68.0,0.0,1754989309.0,200,
+url,https://blogs.blackberry.com/en/2023/07/romcom-targets-ukraine-nato-membership-talks-at-nato-summit,0.0,0.0,29.0,68.0,0.0,1754737733.0,200,
+url,https://campanole[.]com/TOfrPOseJKZ,11.0,2.0,28.0,56.0,0.0,1755037274.0,200,
+url,https://carvecomi[.]fun/storage/de373d0df/a31546bf,14.0,1.0,26.0,56.0,0.0,1755013679.0,200,
+url,https://cdn.cookielaw.org/consent/2e456f46-6b86-42c8-be0a-01efd4471533/OtAutoBlock.js,,,,,,,404,VT status 404
+url,https://cdn.cookielaw.org/scripttemplates/otSDKStub.js,0.0,0.0,29.0,68.0,1.0,1754955657.0,200,
+url,https://cdn.sanity.io/images/cgdhsj6q/production/0d278fa58ffe7d0dede323f27789ba7903d41cfb-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/0d2a16abdb3520c5e27eec7496990a360b161b91-820x545.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/0e3145f69c4fb40577f32d6893d2038ea469255b-200x200.png?w=100&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/21889ac11c8bb50190eef06acc4d55175a183254-1154x888.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/3afb5fc3abde8719b90ce1130d1f2929e4b87fbc-1262x282.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/477f38004f3c5b13398ff6abe718e925af36ae0b-1334x537.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/51866c6e9cad8713f542dd063135d2b49a1a43de-2048x549.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/7cb4122d637d8b6c4c4dc6427832b5c1ba993f0b-1024x1024.png?w=1000,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/7cb4122d637d8b6c4c4dc6427832b5c1ba993f0b-1024x1024.png?w=1000&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/7cb4122d637d8b6c4c4dc6427832b5c1ba993f0b-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/86b95cad5f9b483f702c5406dc9d819a860e61e7-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/9bf6845e9d1dedb00c4d7156c0673ec97403c85c-512x512.jpg?w=100&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/a71515277b747364bc1385d01c6027bc60f66a15-1994x986.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/ae2ae799b2e9ba834168d41a5d659d2cc61558c5-1024x1024.png?w=1000,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/ae2ae799b2e9ba834168d41a5d659d2cc61558c5-1024x1024.png?w=1000&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/ae2ae799b2e9ba834168d41a5d659d2cc61558c5-1024x1024.png?w=400&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/c9a612f2e8ef0788a271716cc8eae4129e3720f0-2048x1186.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/e18d6a3f4746e0600888926a2b97a2b8c3f0a29c-2048x942.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/ec8bdee1c73de2b3488646aa1b77316664ea7751-2048x983.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/f45af82ed4a12663266ba927d6ef59babed2dbfc-1134x450.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/fd2f60fc507cb6ca82b7a47784e75081f0b34034-2048x1826.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://cdn.sanity.io/images/cgdhsj6q/production/ff1c0dd60d9d708ad800064f6724d3d541a141ce-762x578.png?w=1600&amp;q=95&amp;fit=max&amp;auto=format,,,,,,,404,VT status 404
+url,https://chromewebstore.google.com/detail/socket-security/jbcobpbfgkhmjfpjjepkcocalmpkiaop?pli=1,,,,,,,404,VT status 404
+url,https://discord.gg/JkhgPpXDSd,,,,,,,404,VT status 404
+url,https://docs.mythic-c2.net/,0.0,0.0,30.0,67.0,0.0,1748165845.0,200,
+url,https://docs.mythic-c2.net/operational-pieces/c2-profiles/dynamichttp,0.0,0.0,30.0,67.0,0.0,1743667978.0,200,
+url,https://docs.socket.dev,1.0,0.0,29.0,66.0,0.0,1729695936.0,200,
+url,https://enjoy.eset.com/pub/rf,0.0,0.0,20.0,71.0,0.0,1705124018.0,200,
+url,https://feedback.socket.dev,,,,,,,404,VT status 404
+url,https://github.com/MythicC2Profiles/dynamichttp,,,,,,,404,VT status 404
+url,https://github.com/NoMoreFood/putty-cac,0.0,1.0,19.0,71.0,0.0,1707322250.0,200,
+url,https://github.com/SocketDev,,,,,,,404,VT status 404
+url,https://github.com/SocketDev/socket-mcp,,,,,,,404,VT status 404
+url,https://github.com/eset/malware-ioc/tree/master/romcom,,,,,,,404,VT status 404
+url,https://github.com/sophoslabs/IoCs/blob/master/06082025-edrkiller-iocs.csv,0.0,0.0,27.0,70.0,0.0,1754613959.0,200,
+url,https://gohazeldale[.]com,12.0,3.0,27.0,55.0,0.0,1755037278.0,200,
+url,https://i0.wp.com/news.sophos.com/wp-content/uploads/2025/08/sophos-icon-512x512-1.png?w=64,,,,,,,404,VT status 404
+url,https://infinityhel[.]icu/storage/bbb28ef04/fa31546b,13.0,2.0,26.0,56.0,0.0,1755013817.0,200,
+url,https://infinityhel[.]icu/storage/de373d0df/a31546bf,10.0,2.0,28.0,57.0,0.0,1755013773.0,200,
+url,https://infosec.exchange/@SophosXOps,0.0,0.0,20.0,71.0,0.0,1706723617.0,200,
+url,https://kaiaflow[.]icu/storage/bbb28ef04/fa31546b,13.0,2.0,27.0,55.0,0.0,1755013928.0,200,
+url,https://kaiaflow[.]icu/storage/de373d0df/a31546bf,12.0,2.0,27.0,56.0,0.0,1755013864.0,200,
+url,https://kavarecent[.]icu/storage/de373d0df/a31546bf,12.0,3.0,26.0,56.0,0.0,1755013977.0,200,
+url,https://klarrio.com/klarrio-discovers-large-scale-malware-network-on-github/,,,,,,,404,VT status 404
+url,https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/c54dec26-1551-4d3a-a0ea-4fa40f848eb3,0.0,0.0,30.0,67.0,0.0,1754160980.0,200,
+url,https://melamorri[.]com/iEZGPctehTZ,12.0,1.0,27.0,57.0,0.0,1755037276.0,200,
+url,https://mhouge.dk/blog/rogue-one-a-malware-story/,,,,,,,404,VT status 404
+url,https://monsoletter[.]icu/storage/de373d0df/a31546bf,10.0,2.0,28.0,57.0,0.0,1755013511.0,200,
+url,https://monsoletter[.]icu/storage/de373d0df/f0eee999,10.0,2.0,28.0,57.0,0.0,1755013590.0,200,
+url,https://news.sophos.com/?p=961780,,,,,,,404,VT status 404
+url,https://news.sophos.com/_static/??-eJyNjkEOwiAQRS8kHSCY6sJ4FENgAigMxIE0vX1bV7pz997iv3xYmnCVOlKHHrEgA9cWKxMuLLRUM3BfM+6o1eSYT/C1KEO0PEIihif2Zt1LKDNdoFQ/8pGK9o3eer9+MFH4O/FI5PYrLtkscg2Vf2QqiY7UvdzUfDZXLY3UG2n6SDY=,,,,,,,404,VT status 404
+url,https://news.sophos.com/_static/??-eJyVjFsKwyAQRTdUxwcpoR+laxEZEk10xJk2XX4t2UCE+3U45+qjqkBFsIiWFTOyZqorccGDlTN21on7ukRbRPVx4MB2ACeAxDd96SNQG7DxK83zdf9E8Ja4j1fB5+rjUobD6psUbMPd4oeTP+vRKz/tfJ8ezkzGpR+glqA6,,,,,,,404,VT status 404
+url,https://news.sophos.com/_static/??-eJzTLy/QzcxLzilNSS3WzwKiwtLUokoopZebmaeXVayjj0+Rbm5melFiSSpUsX2uraG5qYmpgYGRmWkWAK9eIhs=,,,,,,,404,VT status 404
+url,https://news.sophos.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpqbmpgaGBiZmQIARKsu3g==,,,,,,,404,VT status 404
+url,"https://news.sophos.com/_static/??/wp-content/themes/sophosnews-2017/js/sophos-mc-validate.js,/wp-includes/js/comment-reply.min.js?m=1754920402j",,,,,,,404,VT status 404
+url,https://news.sophos.com/comments/feed/,0.0,0.0,9.0,79.0,0.0,1625206812.0,200,
+url,https://news.sophos.com/de-de,0.0,0.0,9.0,84.0,0.0,1642057828.0,200,
+url,https://news.sophos.com/de-de/2025/08/06/shared-secret-edr-killer-in-the-kill-chain,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us,0.0,0.0,8.0,77.0,0.0,1617701920.0,200,
+url,https://news.sophos.com/en-us/,0.0,0.0,13.0,77.0,0.0,1676301696.0,200,
+url,https://news.sophos.com/en-us/2021/05/19/sophos-xdr-driven-by-data/,0.0,1.0,18.0,71.0,0.0,1701981648.0,200,
+url,https://news.sophos.com/en-us/2021/05/19/whats-new-in-sophos-edr-4-0/,0.0,1.0,18.0,71.0,0.0,1701981652.0,200,
+url,https://news.sophos.com/en-us/2021/05/24/what-to-expect-when-youve-been-hit-with-avaddon-ransomware/,0.0,0.0,9.0,79.0,0.0,1621975195.0,200,
+url,https://news.sophos.com/en-us/2024/08/14/edr-kill-shifter/,0.0,0.0,30.0,67.0,0.0,1754388241.0,200,
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain,0.0,0.0,29.0,68.0,0.0,1754625433.0,200,
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/,0.0,0.0,30.0,67.0,0.0,1754552406.0,200,
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/#print?share=print,0.0,0.0,30.0,67.0,0.0,1754552406.0,200,
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=bluesky,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=email,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=linkedin,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=mastodon,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=pocket,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=reddit,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/?share=tumblr,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/2025/08/06/shared-secret-edr-killer-in-the-kill-chain/feed/,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/author/gabor-szappanos/,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/author/steeve/,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/category/ai-research/,0.0,0.0,29.0,68.0,0.0,1746111364.0,200,
+url,https://news.sophos.com/en-us/category/products-services/,0.0,0.0,29.0,68.0,0.0,1746186715.0,200,
+url,https://news.sophos.com/en-us/category/security-operations/,0.0,0.0,28.0,68.0,0.0,1740813598.0,200,
+url,https://news.sophos.com/en-us/category/sophos-life/,0.0,0.0,29.0,67.0,0.0,1740813715.0,200,
+url,https://news.sophos.com/en-us/category/threat-research/,0.0,0.0,29.0,68.0,0.0,1746111269.0,200,
+url,https://news.sophos.com/en-us/tag/avkiller/,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/tag/edr-killer/,0.0,0.0,29.0,68.0,0.0,1744902255.0,200,
+url,https://news.sophos.com/en-us/tag/featured/,0.0,1.0,18.0,71.0,0.0,1701981553.0,200,
+url,https://news.sophos.com/en-us/tag/heartcrypt/,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/tag/ransomhub/,,,,,,,404,VT status 404
+url,https://news.sophos.com/en-us/tag/sophos-x-ops/,0.0,1.0,18.0,71.0,0.0,1701981554.0,200,
+url,https://news.sophos.com/es-419,0.0,0.0,30.0,67.0,0.0,1749399871.0,200,
+url,https://news.sophos.com/es-419/2025/08/06/shared-secret-edr-killer-in-the-kill-chain,,,,,,,404,VT status 404
+url,https://news.sophos.com/es-es,0.0,0.0,28.0,68.0,0.0,1726169613.0,200,
+url,https://news.sophos.com/es-es/2025/08/06/shared-secret-edr-killer-in-the-kill-chain,,,,,,,404,VT status 404
+url,https://news.sophos.com/feed/,0.0,0.0,7.0,64.0,0.0,1571990364.0,200,
+url,https://news.sophos.com/fr-fr,0.0,0.0,29.0,67.0,0.0,1726491084.0,200,
+url,https://news.sophos.com/fr-fr/2025/08/06/shared-secret-edr-killer-in-the-kill-chain,,,,,,,404,VT status 404
+url,https://news.sophos.com/it-it,0.0,0.0,8.0,80.0,0.0,1664720510.0,200,
+url,https://news.sophos.com/it-it/2025/08/06/shared-secret-edr-killer-in-the-kill-chain,,,,,,,404,VT status 404
+url,https://news.sophos.com/ja-jp,0.0,0.0,30.0,67.0,0.0,1749399871.0,200,
+url,https://news.sophos.com/ja-jp/2025/08/06/shared-secret-edr-killer-in-the-kill-chain,,,,,,,404,VT status 404
+url,https://news.sophos.com/nl-nl/2025/08/06/shared-secret-edr-killer-in-the-kill-chain,,,,,,,404,VT status 404
+url,https://news.sophos.com/pt-br,0.0,0.0,29.0,68.0,0.0,1749399871.0,200,
+url,https://news.sophos.com/pt-br/2025/08/06/shared-secret-edr-killer-in-the-kill-chain,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-comments-post.php,0.0,0.0,28.0,68.0,0.0,1736090319.0,200,
+url,https://news.sophos.com/wp-content/mu-plugins/akismet/_inc/akismet-frontend.js?m=1753141561g,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/mu-plugins/jetpack-14.8/_inc/build/sharedaddy/sharing.min.js?ver=14.8,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/mu-plugins/search/elasticpress/dist/css/related-posts-block-styles.min.css?m=1753141563g,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2020/01/gabor-szappanos-threat-research-director-sophosLabs.jpeg?w=400,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2021/05/sophos-edr-news-blog-image-838x440px@2x.png?w=640,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2021/05/sophos-ransomware-web-banner-1200x628px-option-2.png?w=640,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2021/05/sophos-xdr.png?w=640,0.0,0.0,30.0,67.0,0.0,1749399871.0,200,
+url,https://news.sophos.com/wp-content/uploads/2022/03/Steeve_Gaudreault.jpeg?w=400,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2022/07/Category-Icon-X-Ops-v2.png,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig01.png,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig01.png?resize=300,82",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig01.png?resize=768,209",,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png?resize=1379,1536",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png?resize=269,300",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png?resize=768,856",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/ccleaner-fig04.png?resize=919,1024",,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=1024,568",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=1536,853",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=2048,1137",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=300,167",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?resize=768,426",,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?w=1200,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/07/shutterstock_1484273711.jpg?w=640,,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/08/image2.png,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image2.png?resize=1024,265",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image2.png?resize=300,78",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image2.png?resize=768,199",,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/08/image3.png,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image3.png?resize=1024,825",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image3.png?resize=300,242",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image3.png?resize=768,619",,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/08/image4.png,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image4.png?resize=255,300",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image4.png?resize=768,903",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image4.png?resize=871,1024",,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/08/image5.png,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image5.png?resize=1024,268",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image5.png?resize=300,79",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image5.png?resize=768,201",,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/08/image6.png,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=1024,556",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=1536,834",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=2048,1112",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=300,163",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image6.png?resize=768,417",,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/08/image7.png,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image7.png?resize=229,300",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image7.png?resize=768,1006",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image7.png?resize=782,1024",,,,,,,404,VT status 404
+url,https://news.sophos.com/wp-content/uploads/2025/08/image9.png,,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image9.png?resize=1024,370",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image9.png?resize=1536,554",,,,,,,404,VT status 404
+url,"https://news.sophos.com/wp-content/uploads/2025/08/image9.png?resize=2048,739",,,,,,,404,VT status 404

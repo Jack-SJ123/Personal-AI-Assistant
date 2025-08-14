@@ -1,0 +1,793 @@
+<!DOCTYPE html><!-- Last Published: Wed Aug 06 2025 13:25:14 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.cleafy.com" data-wf-page="609e4249b3778b39524cad9a" data-wf-site="6020129a813fe0c8f1e8053e" lang="en" data-wf-collection="609e4249b3778b409b4cad98" data-wf-item-slug="playpraetors-evolving-threat-how-chinese-speaking-actors-globally-scale-an-android-rat"><head><meta charset="utf-8"/><title>PlayPraetor&#x27;s evolving threat: How Chinese-speaking actors globally scale an Android RAT | Cleafy</title><meta content="The Cleafy Threat Intelligence Team has uncovered a large-scale Malware-as-a-Service (MaaS) operation orchestrated by Chinese-speaking Threat Actors. The operation has globally infected over 11,000 Android devices by deploying the PlayPraetor Remote Access Trojan (RAT). Read the full report here." name="description"/><meta content="PlayPraetor&#x27;s evolving threat: How Chinese-speaking actors globally scale an Android RAT | Cleafy" property="og:title"/><meta content="The Cleafy Threat Intelligence Team has uncovered a large-scale Malware-as-a-Service (MaaS) operation orchestrated by Chinese-speaking Threat Actors. The operation has globally infected over 11,000 Android devices by deploying the PlayPraetor Remote Access Trojan (RAT). Read the full report here." property="og:description"/><meta content="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888e4581628fc67811d7c46_DroidBot%20(1).png" property="og:image"/><meta content="PlayPraetor&#x27;s evolving threat: How Chinese-speaking actors globally scale an Android RAT | Cleafy" property="twitter:title"/><meta content="The Cleafy Threat Intelligence Team has uncovered a large-scale Malware-as-a-Service (MaaS) operation orchestrated by Chinese-speaking Threat Actors. The operation has globally infected over 11,000 Android devices by deploying the PlayPraetor Remote Access Trojan (RAT). Read the full report here." property="twitter:description"/><meta content="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888e4581628fc67811d7c46_DroidBot%20(1).png" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="NzF6vhWzbA9bechcdWjl5dTv5OEoTjcIlJbQ-Tvu_kk" name="google-site-verification"/><link href="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/css/cleafy.shared.002cd050f.min.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700","Roboto Mono:regular","Roboto:300,regular,700"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/603d13d936ee41fe7a568f18_Crypto%20-%2032.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/603d13dd8d1bea09eb7266d5_Crypto%20-%20256.png" rel="apple-touch-icon"/><link href="https://www.cleafy.com/cleafy-labs/playpraetors-evolving-threat-how-chinese-speaking-actors-globally-scale-an-android-rat" rel="canonical"/><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WF5KQ9M');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WF5KQ9M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<meta name="google-site-verification" content="NzF6vhWzbA9bechcdWjl5dTv5OEoTjcIlJbQ-Tvu_kk">
+<link rel="preconnect" href="https://cdn.prod.website-files.com/"/>
+<link rel="preconnect" href="https://cdn.iubenda.com"/>
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+
+
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3993512.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+
+<style>
+/* HubSpot*/
+  
+.callout{
+   font-size: 1rem !important;
+  }  
+  
+fieldset.form-columns-1 .hs-input  {
+  width:100%;
+  } 
+  
+.hs-richtext p {
+  font-size: 0.85rem;
+}
+  
+  
+  
+  .hs-dependent-field{
+  margin-top:20px;
+  margin-bottom:20px;
+  }
+  
+form.hs-form fieldset.form-columns-1 .hs-input {
+  width: 100%;
+}
+
+
+  .grecaptcha-logo{
+  margin-top: 32px;
+ }
+  
+  .rc-anchor-invisible{
+  margin-top:16px;}
+  
+  label{
+  font-weight: 300;
+  margin-bottom:8px;
+  }  
+  
+  input[type="file"]{
+    display: inline-block;
+    border-radius: 0.8em;
+    -webkit-transition: color 200ms ease, background-color 200ms ease;
+    transition: color 200ms ease, background-color 200ms ease;
+    font-size: 14px;
+    font-weight: 500;
+  	border: 1px;
+    border-color: 
+    text-decoration: none
+  }
+  
+  .hs-dependent-field{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  label[for="file"] {
+  background-color: white;
+  }
+  
+  
+.hs-input:not([type=file]) {
+    background-color: white;}
+
+.hs-richtext{
+  	font-size:10px;
+  }
+  
+  .inputs-list{
+  margin-top:4px;
+  margin-bottom: 8px;
+  }
+  
+  .input{
+  margin-bottom:16px;
+  }
+  
+  textarea{
+  margin-bottom:16px;
+  }
+  
+.hs-input {
+	/* 	-webkit-appearance: none; */
+    display: inline-block;
+    width: 100%;
+  	padding: 9px 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+  
+  label{
+  font-size: 0.85rem;
+  }
+  
+  
+input[type=submit] {
+    -webkit-appearance: none;
+	position: static;
+ 	width: 100%;
+    right: 1em;
+    display: block;
+    margin-top: 2em;
+    padding: 1em 1.67em;
+    border-radius: 0.8em;
+    background-color: #009fa8;
+    -webkit-transition: color 200ms ease, background-color 200ms ease;
+    transition: color 200ms ease, background-color 200ms ease;
+    color: #ceffca;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+  border: 0px;
+}  
+  .inputs-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-columns-2 {
+		max-width: 100% !important;
+	}
+fieldset.form-columns-1 {
+	max-width: 100% !important;
+  }  
+  
+
+  .hs-form-booleancheckbox{
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  /* Custom Input */
+ul.inputs-list.multi-container li.hs-form-checkbox {
+  margin: 16px 0;
+}
+ul.inputs-list.multi-container li.hs-form-checkbox label {
+  position: relative;
+}
+ul.inputs-list.multi-container li.hs-form-checkbox label span {
+display: inline-block;
+  margin-left: 40px; /* Width of the new radio select and any additional spacing on the left */
+  margin-right: 16px; /* Additional spacing on the right */
+}
+/* Hide the original checkbox */
+ul.inputs-list.multi-container li.hs-form-checkbox label input {
+  height: 24px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+/* Add new checkbox */
+ul.inputs-list.multi-container li.hs-form-checkbox label span::before {
+  border: 2px solid;
+  content: "";
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+  border-radius: 4px;
+}
+/* Style new checked item */
+ul.inputs-list.multi-container li.hs-form-checkbox label span::after {
+  content: "";
+  border: 4px solid;
+  border-left: 0;
+  border-top: 0;
+  height: 16px;
+  left: 8px;
+  opacity: 0;
+  position: absolute;
+  top: 2px;
+  transform: rotate(45deg);
+  transition: opacity 0.2s ease-in-out;
+  width: 8px;
+}
+/* Show when checked */
+ul.inputs-list.multi-container li.hs-form-checkbox label input:checked + span::after {
+  opacity: 1;
+}
+/* Style when focused */
+ul.inputs-list.multi-container li.hs-form-checkbox label input:focus + span::after {
+  outline: 3px solid transparent; /* For Windows high contrast mode. */
+}
+  
+  
+  
+@media only screen and (max-width: 600px) {
+
+  input[type=text] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  margin-right: 0px;
+}
+    input[type=email] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  margin-right: 0px;
+
+}
+    textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 120px;    
+}
+  
+  
+input[type=submit] {
+    -webkit-appearance: none;
+	position: static;
+    right: 1em;
+    width:100%;
+    margin-top: 2em;
+    padding: 1em 1.67em;
+    border-radius: 0.8em;
+    background-color: #009fa8;
+    -webkit-transition: color 200ms ease, background-color 200ms ease;
+    transition: color 200ms ease, background-color 200ms ease;
+    color: #ceffca;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+  border: 0px;
+}
+</style><style>
+.w-embed{
+	width:90%;
+  margin:auto;
+  }
+</style>
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "PlayPraetor&#39;s evolving threat: How Chinese-speaking actors globally scale an Android RAT",
+      "description": "The Cleafy Threat Intelligence Team has uncovered a large-scale Malware-as-a-Service (MaaS) operation orchestrated by Chinese-speaking Threat Actors. The operation has globally infected over 11,000 Android devices by deploying the PlayPraetor Remote Access Trojan (RAT). Read the full report here.",
+      "image": "https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888e4581628fc67811d7c46_DroidBot%20(1).png",
+      "datePublished": "",
+      "author": [{
+          "@type": "Person",
+          "name": "Alessandro Strino",
+          "url": "www.cleafy.com/autori/playpraetors-evolving-threat-how-chinese-speaking-actors-globally-scale-an-android-rat",
+          "jobTitle": "Malware Analyst",
+          "image": "https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25cc1fc52073a184c4_62a9b02a5513ec492e8aac24_Strino_Alessandro_Pic.jpeg",
+          "sameAs": "https://www.linkedin.com/in/alessandro-strino-30223264/"
+        },{
+          "@type": "Person",
+          "name": "Federico Valentini",
+          "url": "www.cleafy.com/autori/federico-valentini",
+          "jobTitle": "Head of Threat Intelligence and Incident Response",
+          "image": "https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25a19873de6ce273f6_628b5b9c1376519044dbc9e1_FedeV_final.jpeg",
+          "sameAs": "https://www.linkedin.com/in/federico-valentini-862003a6/"
+        }],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cleafy",
+        "url": "https://www.cleafy.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/62875f1223056743282d00f8_logo-extended-blue.jpg"
+        }
+      }
+    }
+    </script></head><body><div class="announcer w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="http://www.cleafy.com/eura" class="annoucerblock w-inline-block w-condition-invisible"><div class="wrapper flexhorizontal announcer"><div class="announcerinfo"><img src="https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="iconannouncer hide"/><div class="fonticon minbanner">x</div><div class="bold">Discover Cleafy&#x27;s Copilot</div><div class="verysmallmarginleft">The first AI cyber-fraud agent</div></div><div class="interaction crypto no-button"><p class="psmall">Read more<span class="fonticon insight"></span></p><p class="fonticon insight">d</p></div></div></a><a href="http://www.cleafy.com/eura" class="annoucerblock octanium w-inline-block"><div class="wrapper flexhorizontal announcer"><div class="announcerinfo"><img src="https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="iconannouncer hide"/><div class="fonticon minbanner">x</div><div class="bold">Discover Cleafy&#x27;s Copilot</div><div class="verysmallmarginleft">The first AI cyber-fraud agent</div></div><div class="interaction crypto no-button"><p class="psmall no-bottom">Read more<span class="fonticon insight"></span></p><p class="fonticon insight no-bottom">d</p></div></div></a><a href="http://www.cleafy.com/eura" class="annoucerblock crypto w-inline-block w-condition-invisible"><div class="wrapper flexhorizontal announcer"><div class="announcerinfo"><img src="https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="iconannouncer hide"/><div class="fonticon minbanner">x</div><div class="bold">Discover Cleafy&#x27;s Copilot</div><div class="verysmallmarginleft hidemobile">The first AI cyber-fraud agent</div></div><div class="interaction onlytext"><p class="psmall">Read more<span class="fonticon insight"></span></p><p class="fonticon insight">d</p></div></div></a></div></div></div><nav class="navbar"><a href="/" class="logo w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/6031121f255fb120fa9d4d05_Cleafy-logo.svg" alt="Cleafy Logo"/></a><ul role="list" class="navlist"><li id="w-node-_8c1a526c-e50e-9fe3-3c24-9361a7b00086-a7b00082" class="navitemlist"><a href="/platform" class="li link">Platform</a></li><li id="w-node-_8c1a526c-e50e-9fe3-3c24-9361a7b00089-a7b00082" class="navitemlist"><a href="/industries" class="li link">Who it&#x27;s for</a></li><li class="navitemlist"><a href="/threat-intelligence" class="li link">LABS</a></li><li id="w-node-_8c1a526c-e50e-9fe3-3c24-9361a7b0008f-a7b00082" class="navitemlist company nopaddingmobile"><div class="web"><a href="#" class="li w-inline-block"><div>Resources</div><div class="fonticon left2">g</div></a><div class="hovermenulist resources"><a href="/resources/documents" class="lihover">Documents</a><div class="divider tiny"></div><a href="/resources/insights" class="lihover">Insights</a><div class="divider tiny"></div><a href="/labs" class="lihover">LABS Reports</a><div class="divider tiny"></div><a href="/webinars" class="lihover">Webinars</a><div class="divider tiny hide"></div><a href="/events" class="lihover">Events</a></div></div><div data-delay="0" data-hover="false" class="mobileli w-dropdown"><div class="li company noborderbottom w-dropdown-toggle"><div class="accordionicon w-icon-dropdown-toggle"></div><div>Resources</div></div><nav class="dropdown-list w-dropdown-list"><div class="hovermenulist resources"><a href="/resources/documents" class="lihover">Documents</a><div class="divider tiny"></div><a href="/resources/insights" class="lihover">Insights</a><div class="divider tiny"></div><a href="/labs" class="lihover">LABS Reports</a><div class="divider tiny"></div><a href="/webinars" class="lihover">Webinars</a><div class="divider tiny hide"></div><a href="/events" class="lihover">Events</a></div></nav></div></li><li id="w-node-_8c1a526c-e50e-9fe3-3c24-9361a7b0009e-a7b00082" class="navitemlist company nopaddingmobile"><div class="web"><a href="#" class="li w-inline-block"><div>Company</div><div class="fonticon left2">g</div></a><div class="hovermenulist"><a href="/about-us" class="lihover">About us</a><div class="divider tiny"></div><a href="/careers" class="lihover">Careers</a><div class="divider tiny"></div><a href="/partners" class="lihover">Partners</a><div class="divider tiny"></div><a href="/press" class="lihover last">Press</a><div class="divider tiny"></div><a href="/news" class="lihover">News</a></div></div><div data-delay="0" data-hover="false" class="mobileli w-dropdown"><div class="li company noborderbottom w-dropdown-toggle"><div class="accordionicon w-icon-dropdown-toggle"></div><div>Company</div></div><nav class="dropdown-list w-dropdown-list"><div class="hovermenulist"><a href="/about-us" class="lihover">About us</a><div class="divider tiny"></div><a href="/careers" class="lihover">Careers</a><div class="divider tiny"></div><a href="/partners" class="lihover">Partners</a><div class="divider tiny"></div><a href="/press" class="lihover last">Press</a><div class="divider tiny"></div><a href="/news" class="lihover">News</a></div></nav></div></li><li class="li mobile"><a href="https://support.cleafy.com/" target="_blank" class="button nav web _2nd mobile">Support</a></li><li class="li mobile"><a href="/get-in-touch" class="button nav">Get in touch</a></li></ul><div class="button-menu"><a rel="nofollow" href="https://support.cleafy.com/" target="_blank" class="button nav web _2nd">Support</a><a href="/get-in-touch" class="button nav web">Get in touch</a></div><div data-is-ix2-target="1" class="menuburger" data-w-id="8c1a526c-e50e-9fe3-3c24-9361a7b000b9" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/6036dd61d4e1d1975520d3b6_menuV2.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="2" data-duration="0" data-ix2-initial-state="0"></div></nav><div class="globalcustomcss w-embed"><style>
+/* JQuery */
+@media only screen and (min-width: 1440px) {
+     body {font-size: 14.4px;}
+}
+/* Global CSS */
+.navbar {
+	backdrop-filter: blur(0.7em);
+  -webkit-backdrop-filter: blur(0.7em);
+}
+
+.overlayHubSpot{
+	backdrop-filter: blur(1em);
+  -webkit-backdrop-filter: blur(1em);
+}
+</style></div><div><section class="intro clab bkg-labs"><div class="wrapper"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="tagitem w-dyn-item"><div class="ctag"><div>Android</div></div></div><div role="listitem" class="tagitem w-dyn-item"><div class="ctag"><div>Malware</div></div></div><div role="listitem" class="tagitem w-dyn-item"><div class="ctag"><div>On-Device</div></div></div></div></div><h1 class="clabtitle">PlayPraetor&#x27;s evolving threat: How Chinese-speaking actors globally scale an Android RAT</h1><div class="infoarticle"><div class="cdatablock detail w-clearfix"><h6 class="mono whitetext datalab">Published:</h6><h6 class="mono whitetext datalab nor">29/7/25</h6></div><a href="/labs" class="w-inline-block"><img src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/67d2edc94c8ed8232523cefe_Cleafy-Labs.avif" loading="lazy" alt="" class="logo labs detail"/></a></div></div></section><div style="-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="overlayhubspot w-clearfix"><div class="overlay"></div><div style="-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="formcontainer editorial"><div class="headform">Download the PDF version</div><div class="form w-embed w-script"><!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "3993512",
+	formId: "8db8b125-7047-4802-99bd-6e4ce9b90218"
+});
+</script></div></div></div><section class="dsm-section"><div class="wrapper"><div class="downloadbannerbigger insight bigger clabs w-condition-invisible"><div class="infobannerblock"><h3>Download your PDF  guide to TeaBot</h3><p>Get your free copy to your inbox now</p></div><a href="#" class="button downloadpdf bigger">Download PDF Version</a></div></div><div class="dsm-wrapper w-clearfix"><div class="_45 full blog"><section id="1" class="bigmarginbottom"><h3 class="titlesectionclab">Key Points</h3><div class="blog w-richtext"><ul role="list"><li>A large-scale Malware-as-a-Service (MaaS) operation, orchestrated by <strong>Chinese-speaking</strong> Threat Actors (TAs), has globally infected <strong>over 11,000 Android devices</strong> by deploying the <strong>PlayPraetor</strong> Remote Access Trojan (RAT).</li><li>While Europe is the most affected continent, with major victim concentrations in <strong>Portugal</strong>, <strong>Spain</strong>, and <strong>France</strong>, the campaign has also established a significant presence in Africa, Latin America, and Asia, with hotspots in <strong>Morocco</strong>, <strong>Peru</strong>, and <strong>Hong Kong</strong>.</li><li>The botnet&#x27;s rapid growth, which now exceeds <strong>2,000 new infections per week</strong>, is driven by aggressive campaigns focusing on <strong>Spanish and French speakers</strong>, indicating a strategic shift away from its previous common victim base.</li><li>The operation is managed by a Chinese-language Command and Control (C2) panel, which leverages a <strong>multi-tenant</strong> <strong>architecture</strong> to support a scalable affiliate model and includes <strong>automated tools</strong> for creating <strong>custom malware delivery pages</strong>.</li><li>The malware is <strong>actively being developed</strong> to improve its effectiveness. It deploys overlay attacks against a globally distributed target list of <strong>nearly 200 banking apps and cryptocurrency wallets</strong>.</li></ul></div></section><section id="2" class="bigmarginbottom"><h3 class="titlesectionclab">Executive Summary</h3><div class="blog w-richtext"><p>In June 2025, the Cleafy Threat Intelligence team investigated a large-scale fraud campaign leveraging PlayPraetor, an Android RAT that facilitates <strong>On-Device Fraud (ODF)</strong> by giving operators complete real-time control over compromised devices. The PlayPraetor campaign, initially detailed by <a href="http://ctm360.com">CTM360</a>, has been active for several months, strategically impersonating legitimate Google Play Store pages to trick victims into downloading malicious applications. Cleafy&#x27;s investigation has revealed the underlying Malware-as-a-Service (MaaS) operation carried out by TAs, which has <strong>infected over 11,000 devices globally in less than three months</strong>.</p><p>The operation is managed via a sophisticated <strong>Chinese-language C2 panel</strong> featuring a multi-tenant architecture that enables multiple affiliates. This structure has allowed the campaign to achieve significant global reach, though with a highly strategic focus. <strong>Europe is the primary target</strong>, accounting for 58% of all infections, with high concentrations of victims in <strong>Portugal</strong>, <strong>Spain</strong>, and  <strong>France</strong>. The campaign also has a notable presence in Africa (with <strong>Morocco</strong> as a hotspot), Latin America (with high presence in <strong>Peru</strong>), and Asia (primarily <strong>Hong Kong</strong>). The affiliate network is dominated by <strong>two principal operators</strong> who control roughly 60% of the botnet and seem to be specialised in Portuguese-speaking targets. In contrast, other smaller affiliates focus on <strong>different language demographics</strong>, such as Chinese, Spanish, and French-speaking victims.</p><p>The botnet is expanding at a rate of over <strong>2,000 new infections</strong> per week, and recent data signals a clear strategic pivot in targeting. While infections among its traditional victim base are decelerating, operators are aggressively pursuing new campaigns against <strong>Spanish</strong> and <strong>French speakers</strong>, posing a significant and escalating threat to financial institutions and their customers in Spain, Latin America, and French-speaking regions.</p><p>This strategic expansion is made possible by the effective application of the PlayPraetor RAT, which uses common and well-established techniques for ODF. By abusing Android&#x27;s Accessibility Services, the operators gain real-time control of the infected device. An investigation of the overlay attack payloads revealed an extensive list of global targets, including<strong> nearly 200 banking apps and cryptocurrency wallets</strong>. Cleafy&#x27;s analysis revealed the presence of <strong>new commands </strong>for the RAT, evidence of the <strong>continuous development</strong> of the latter, showing that the developers are actively maintaining their toolset to ensure its effectiveness.</p></div></section><section id="3" class="bigmarginbottom"><h3 class="titlesectionclab">Introduction</h3><div class="blog w-richtext"><p>The mobile threat landscape continues to evolve, with widespread campaigns employing techniques to bypass traditional security measures and compromise users. A notable example of this escalating threat is the <strong>PlayPraetor</strong> campaign, a global operation first detailed by CTM360. This campaign strategically impersonates legitimate Google Play Store pages, tricking victims into downloading malicious applications or revealing sensitive information. </p><p>While using fake Play Store pages to deliver malware is a well-established tactic among cybercrime groups, the truly significant aspect of these campaigns lies in their <strong>scale</strong>. Initially, it was identified as a localised threat, as the RAT disguised itself as some legitimate banking institutions. Subsequently, the campaign underwent significant expansion, using more than <strong>16,000 URLs</strong> and employing <strong>various techniques</strong> to profit from victims. This evolution marks a clear transition from a regional to a global threat. CTM360 has identified five variants of these campaigns, each with distinct attack capabilities:</p><ul role="list"><li><strong>Phish</strong>: Uses phishing web pages to capture user credentials.</li><li><strong>RAT</strong>: Distributes <a href="https://www.cleafy.com/cleafy-labs/spynote-continues-to-attack-financial-institutions">SpyNote</a> banking malware.</li><li><strong>PWA</strong>: Installs Progressive Web Apps that mimic legitimate applications.</li><li><strong>Phantom</strong>: RAT from the previous campaign and the subject of this report.</li><li><strong>Veil</strong>: Malware that operates through an invitation-only phishing platform, leading victims to fraudulent purchases of products requiring credit card details or bank transfers.</li></ul><p>Cleafy&#x27;s investigation into this threat began with acquiring the first malware sample of the Phantom variant in April 2025. This initial sample, originating from a deceptive Play Store page, provided crucial early insights into the malware&#x27;s distribution channels and confirmed the central role of fake Play Store pages in its delivery strategy. A month later, a significant spike in the malware&#x27;s activity was observed in <strong>Southern Europe</strong> and <strong>LATAM</strong>, prompting Cleafy to investigate the malware&#x27;s characteristics and underlying infrastructure. </p><p>This investigation focuses only on the <strong>Phantom variant</strong>, which will be referred to simply as PlayPraetor in this report.</p></div></section><section id="4" class="bigmarginbottom"><h3 class="titlesectionclab">PlayPraetor Overview</h3><div class="blog w-richtext"><p>PlayPraetor is a modern Android RAT. Its core functionality relies on abusing Android&#x27;s <strong>Accessibility</strong> <strong>Services</strong> to gain extensive, real-time control over a compromised device. This allows an operator to perform fraudulent actions directly on the victim&#x27;s device.</p><p>PlayPraetor implements a communication strategy that utilises <strong>three</strong> <strong>distinct</strong> <strong>protocols to maintain robust control</strong>. The malware establishes an initial connection using a resilient heartbeat mechanism over <strong>HTTP/HTTPS</strong>. It iterates through a hardcoded list of C2 domains, sending a heartbeat request to the<em> </em><em>/app/searchPackageName</em> path upon activation. This iterative process ensures resilience against takedowns by retrying the next domain if the current one is unresponsive.</p><p>Once a connection is live, the following channels are used for real-time control and monitoring:</p><ul role="list"><li>A persistent <strong>WebSocket</strong> connection over port <em>8282</em> to the same C2 domain. This creates a bidirectional channel for operators to send immediate commands to the infected device, allowing real-time management.</li><li>An <strong>RTMP</strong> (Real-Time Messaging Protocol) channel, over port <em>1935</em> of the same server. This connection is used for live video streaming of the device&#x27;s screen. It is sent to a dedicated endpoint (<em>rtmp://[C2]:1935/live/&lt;device_id&gt;</em>), providing the operator with a direct, real-time view of device activity during ODF.</li></ul><p>The WebSocket channel is the primary method for command and control. The main command types are outlined below: </p><div class="w-embed"><style type="text/css">
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0302{background-color:#172b4d;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">Command</span></th>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">Description</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:#FFF">update</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Updates malware configuration or payload components</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">init</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Registers the device with a specific campaign identifier</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">alert_arr</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Configures the content and triggers for overlay alerts</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">report_list</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Configures the target application list for monitoring and credential harvesting</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">heartbeat_web</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">A keep-alive signal to maintain the WebSocket connection</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">message</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Execution of sub-commands</span></td>
+  </tr>
+</tbody></table></div><p>‍</p><p>Further analysis of the malware reveals an <strong>active and ongoing development</strong>, with notable divergences when compared to the initial versions detailed by CTM360. This is immediately evident in the main command structure. Key commands present in this version, such as <em>heartbeat_web</em> for maintaining a stable WebSocket connection and <em>report_list</em> for dynamically updating the list of targeted applications, were absent in the earlier samples. As detailed in the Appendix, this evolutionary trend is also visible at a more granular level within the malware&#x27;s sub-commands. Key changes between the February and June 2025 samples include:</p><ul role="list"><li><strong>Streamlined Command Set</strong>: The total number of sub-commands was reduced from 55 to 52, with nine older sub-commands (e.g., <em>camera_auth</em>, and<em> </em><em>open_gallery</em>) discontinued and six new ones added. </li><li><strong>New Functionalities</strong>: The newly introduced sub-commands (e.g., <em>add_volumes</em>, <em>card_unlock</em>, <em>wake</em>) point to the development of new capabilities related to device control.</li></ul><p>While WebSocket and RTMP are used for real-time control, the HTTP/S protocol is the primary channel for <strong>exfiltrating</strong> data harvested from the victim&#x27;s device. Our analysis identified several specific API paths used for this purpose:</p><ul role="list"><li><strong>Device Fingerprinting:</strong><em> </em><em>/app/saveDevice</em> sends a detailed profile of the compromised device to the C2 server.</li><li><strong>Personal Data Collection:</strong> <br/><ul role="list"><li><em>/app/saveContacts</em> (Contact List Harvesting)</li><li><em>/app/saveSms</em> (SMS Interception)</li><li><em>/app/uploadImageBase64</em> (Screenshot Capture)</li></ul></li><li><strong>Financial Credential Harvesting:</strong> <em>/app/saveCardPwd </em>is used to exfiltrate sensitive banking credentials captured through overlays or other methods.</li></ul><p>Before concluding this section, it is important to address a general observation regarding the classification of C2 infrastructure and related malware samples on public threat intelligence platforms. It’s worth mentioning that samples from the PlayPraetor family have sometimes been misidentified and categorised under an unrelated malware family, likely due to a vast network of interconnected fraud campaigns. Analysis of those infrastructures revealed that multiple concurrent operations employed various distinct malware families, including the PlayPraetor RAT, which is the focus of this analysis, and others such as SpyNote. Discussing these different malware tools within the same report led some public threat intelligence platforms to conflate them, resulting in PlayPraetor samples being erroneously tagged as SpyNote, as shown in the example below.</p><figure style="max-width:1306pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888add3f688077a3bafc319_AD_4nXe7zHM6AQ0vkF2qbak3PV2PWkbtkl2gHUUFHKgwBjlQYEOv1gI-_-MXackUILa63kg2ug6ByMwJ9EuiBApK2Usi4qt2q2vTMYkKrgpWM0u2g2P9Ww2ar5KlNQy4r3kOfPd2HLCwMEX6vE0c1d9Yijg.png" loading="lazy" alt=""/></div><figcaption> <em>Figure 1: PlayPraetor Misclassified as SpyNote</em></figcaption></figure></div></section><section id="5" class="bigmarginbottom"><h3 class="titlesectionclab">Target Profile and Campaign Distribution</h3><div class="blog w-richtext"><p>Our in-depth investigations into the PlayPraetor campaigns, conducted in June 2025, reveal a significant and evolving threat. More than <strong>11,000</strong> <strong>devices</strong> <strong>have</strong> <strong>been</strong> <strong>compromised in less than three months</strong>, demonstrating this Android RAT&#x27;s substantial reach and impact. To better understand which regions are most impacted and identify future threats, this analysis evaluates the <strong>profile of typical target victims</strong>. By examining these patterns, we aim to provide valuable insights into the operational strategies driving these attacks. The malware&#x27;s distribution via a MaaS model, a widely common approach in recent years, also allows us to delve into the activities of individual affiliates. This enables us to identify specific targets and discern operational patterns unique to each affiliate, offering a detailed view of the threat landscape and potential future trends.<br/>‍</p><h4>Geographical Distribution</h4><p>The PlayPraetor botnet exhibits a remarkable <strong>global reach</strong>, with infected devices spanning multiple continents. However, a deeper analysis reveals that this is not a campaign of random, widespread infection, but rather a series of highly concentrated, strategic operations focused on specific linguistic and geographical regions.</p><figure style="max-width:1341pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888add4f688077a3bafc34a_AD_4nXd5NXK5TeTkMrYC6FfBG1tYz50Fod8QCy7XrpoFibvwlU3l7-aFl4duQB1BGMmk5e7C5XPdFT2uoVw76QihSzxqCxJfdfjn1oRDC9WFcu31HZgI6WUwcJ6skzqkkBnVlma1lbtN-2Q_oc_dLW2Mw-s.png" loading="lazy" alt=""/></div><figcaption><em>Figure 2: Global Distribution of Infected Device IPs by Affiliate</em></figcaption></figure><p>Based on the victim&#x27;s IP addresses, the global infection map provides a clear visualisation of this strategy. The data overwhelmingly indicates that <strong>Europe is the primary operational target</strong>, representing <strong>58% of all compromised devices</strong>. This is visually confirmed by the dense clustering of infection points across the continent, with particularly high concentrations visible in <strong>Portugal </strong>and <strong>Spain</strong>. This geographical focus aligns perfectly with a calculated linguistic targeting strategy, with Portuguese and Spanish being the most targeted languages. <strong>France, Hungary,</strong> and <strong>Italy</strong> are among the other highly impacted European countries.</p><p>While Europe is the main target, other continents show signs of similarly focused efforts. Accounting for 22% of total infections, the botnet&#x27;s footprint in Africa is characterised by a geographically dispersed activity, with the clear exception of <strong>Morocco</strong>, which has emerged as the continent&#x27;s primary hotspot. The Americas (12%) see a higher concentration in South America, with <strong>Peru</strong> standing out as a main target. Finally, Asia (8%) shows notable infection clusters in East and Southeast Asia, corroborating IP data that highlights significant activity in <strong>Hong Kong</strong>.</p><p>This targeted proliferation of infected devices is further illustrated in the backend dashboard of the attacker’s <strong>C2 panel</strong>. </p><figure style="max-width:1216pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888add4f688077a3bafc347_AD_4nXcFuzW3rr6D76MDYl3W7nJprvmBA2gUGQPw84-bCiAoy8oDNET6RCfBIKwm67QqTo_QeMQ9hllOdw2FftqRKH5vB84p696hnVaX5HoNpm1kKyAkvBaCd8cQueu6KcAeePzlYvatm-h-J8x76ShIMNg.png" loading="lazy" alt=""/></div><figcaption>                 <em>Figure 3: C2 Dashboard with real-time infection statistics</em></figcaption></figure><p>The C2 panel shows 11,005 total installations, but more importantly, 7,931 of these devices have enabled the malware&#x27;s required Accessibility service. This represents a good activation rate of 72%, signifying that nearly 8,000 devices are fully &quot;armed&quot; and under the operators&#x27; control.  Consequently, our analysis will concentrate on this pool of fully operational threats.<br/>‍</p><h4>Botnet Affiliates</h4><p>The botnet&#x27;s affiliate structure provides critical insights into its operational hierarchy and strategic priorities. The network&#x27;s control distribution is skewed, revealing a two-tiered system composed of a <strong>few dominant affiliates</strong> and numerous smaller, more specialised ones.</p><figure style="max-width:1177pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888add4f688077a3bafc33c_AD_4nXf9r3-NOa50kiogyI-GgWJatd7cCfSeNUFjEveAc1kn7ZtL1SiviLON4RHNaHzQXWoNrUP-HfErZClP9JKFDGmG3xFvtmoipKRszJZrCA_wV8uNYC-FpJ8-2NPFCGKmbwKbHKH9K_Eh8cyfhJQ-f_E.png" loading="lazy" alt=""/></div><figcaption>                <em>Figure 4: Absolute Infection Volume by Affiliate</em></figcaption></figure><p>This imbalance is quantitatively illustrated in Figure 4, which details the absolute infection volume managed by each affiliate. The network is predominantly controlled by <strong>two principal affiliates</strong>, <em>10008</em> and 10007, which collectively command more than 4,500 compromised devices. This represents almost 60% of the botnet, specifically among devices with accessibility services enabled. Furthermore, the operational focus of these dominant affiliates is clearly defined, with Portuguese-language devices (represented by the Azure segment) comprising the most significant proportion of their respective victim pools. While Figure 4 demonstrates volume, an analysis of the normalised targeting strategies, presented in Figure 5, elucidates the distinct operational specialisations. This proportional view highlights how each affiliate allocates resources across different language demographics.</p><figure style="max-width:1144pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888add4f688077a3bafc33f_AD_4nXfA-SxVUwLcfmD9TeX7tSmlNoCRieWALb_ov3qlOgQas1frDqTPqCo1QG4_TsjkkR457tcBGZLF2SW32I_EaMOBOh7g8HS3A0aNwf7gR8SzgxpHWbCdqy7WvFCiXFI05XwVe8s2Zzaeso9Embfeyp0.png" loading="lazy" alt=""/></div><figcaption>                <em>Figure 5: Targeting Strategy Analysis</em></figcaption></figure><p>This proportional view reveals several distinct operational archetypes based on their targeting strategy:</p><ul role="list"><li><strong>Principal Affiliates</strong> (<em>10008</em>, <em>10007</em>): The data confirms the operational focus of the two largest affiliates. For affiliate 10008, Portuguese-language devices constitute approximately 75% of its portfolio, showing a heavy specialization. Affiliate 10007 also prioritizes this group, which makes up 40% of its targets, but maintains a more diversified portfolio that also includes significant campaigns against French, Arabic, and English speakers.</li><li><strong>Regional Specialists</strong>: In contrast to the dominant actors, several other affiliates operate within distinct, well-defined regions: <br/><ul role="list"><li>Affiliate 10019 has emerged as a specialist targeting French-speaking users, which account for approximately 60% of its infections, and Arabic users.</li><li>Affiliate 10010 concentrates its efforts primarily on Spanish-speaking populations (nearly 90%), indicating a strategic focus on Southern European and Latin American regions.</li></ul></li><li><strong>Diversified Operators</strong>: The remaining affiliates, particularly those aggregated in the &quot;Others&quot; category and individual operators like <em>10019</em>, exhibit a more diversified targeting portfolio. <br/>‍</li></ul><h4>Potential Future Trajectories</h4><p>While predicting the botnet&#x27;s future evolution is speculative, analysing temporal trends in new infections reveals emerging strategic shifts. The data, illustrated in Figure 6, shows a dramatic spike in activity in late June 2025, with new infections surging to over 2,000 compromised devices in the final week. More importantly, this growth is highly uneven and clearly indicates a radical <strong>shift in targeting priorities</strong>.</p><figure style="max-width:1380pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888add4f688077a3bafc342_AD_4nXcUqd25ctjFKa7Zie6JCb_WnAjpksyGBWkO85QlQE_HngJnCYkfJxeUV1wMu9LmSEHICOLNhpr9OEtIet6IAXT0UPDHuxN-dyJEvoSfi2hi81ENO_fHz7-Ne4bSTWkkuSxMzbjdAMUgZoDJd8FtdWs.png" loading="lazy" alt=""/></div><figcaption>             <em>Figure 6: Weekly New Infections by Language</em></figcaption></figure><p>The most significant development is the <strong>exponential growth in Spanish-speaking victims</strong> (pink). After being a secondary target for months, this demographic became the primary driver of the botnet&#x27;s expansion in late June, accounting for the largest share of new infections. This trend poses a significant and rapidly escalating risk for users in Spain and Latin America. This surge in Spanish targets coincides with a <strong>deceleration in new infections among Portuguese speakers</strong> (blue). This directly supports the hypothesis of a strategic pivot: the core affiliates, focused on the now-stagnating Portuguese market, appear to be ceding ground to other affiliates who are expanding into new territories.</p><p>This is further supported by the sustained, significant <strong>increase in French-speaking victims</strong> (green), which now represents the second-largest source of new weekly infections. Meanwhile, the number of English (red) and Chinese (black) targets remains relatively stable, positioning them as consistent but lower-priority operational theatres. A final, telling development is the sudden, sharp spike in <strong>Arabic-speaking</strong> <strong>victims</strong> (purple) in the last week, which may signal the opening of another major campaign front.</p></div></section><section id="6" class="bigmarginbottom"><h3 class="titlesectionclab">Behind the C2 Panel</h3><div class="blog w-richtext"><p>The PlayPraetor C2 panel serves as the central operational hub for the TAs, allowing them to manage and exploit compromised devices. Analysis of the panel interface reveals a sophisticated and well-organised system, primarily presented in Chinese. This suggests that the core development and operational team behind PlayPraetor is likely <strong>Chinese-speaking</strong>.</p><figure style="max-width:1313pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888aebc224dde4a8e1eb520_AD_4nXd7rhQ9ZS-ncPkUKErJI9tGuviglN_WElQX_ye6wlmG90XEhV7FqjM36bgAegVlTHncSRw1EdYsa-_b41Oh-_d6lFh5lI29bq1NYtNst6aa8FHdHQr_iB869aVErHl4EZQAd0ye510jmQuIAMnazsw.png" loading="lazy" alt=""/></div><figcaption>         <em>Figure 7: Infected Device List (Affiliate View)</em></figcaption></figure><p>The panel is designed with a &quot;multi-tenant&quot; architecture, meaning it supports separate environments or &quot;tenants&quot; for each individual affiliate. This multi-tenancy enables the distinct affiliates, as identified in the botnet affiliate structure, to manage their specific victim pools and campaigns independently while leveraging a shared, robust infrastructure. </p><p>A key component of the PlayPraetor panel is the <strong>device remote control section</strong>, which allows operators to actively interact with compromised devices in real-time. As shown in the panel&#x27;s interface (Figure 8), this functionality extends beyond simple commands, providing a suite of interactive tools for a complete device takeover. This empowers the operator to actively impersonate the victim, enabling direct ODF. At the top, a status bar provides the operator with essential device information, including its unique ID, battery level, and connection state. To the left, a vertical command menu offers a powerful suite of interactive tools, including functions to stream the device’s screen in real-time, capture screenshots, and even access the device&#x27;s camera. The central component of the dashboard is a grid displaying all applications installed on the device. This provides the primary attack surface, allowing the operator to launch any app with a single click. This capability, combined with a row of buttons for viewing exfiltrated personal data, such as lock screen passwords, past notifications, and logs of overlay attacks, creates a powerful environment for fraud.</p><figure style="max-width:1067pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888aebc224dde4a8e1eb527_AD_4nXc2QOqUYGSzRkM61iBK4Q89SoDfR_-XCwBxa4WFfe5VWAxeOUA61Da2BjFyInbQjOCLmMby7zVddSot8BKAJYv7vSr2qiR_sFQOw--XBiIZz-UwzCeXS_tyIcmILknpep-bhoI0VxWYJtiIEgqyy-k.png" loading="lazy" alt=""/></div><figcaption>                     <em>Figure 8: Device Remote Control Section</em></figcaption></figure><p>The panel interface reveals that this infrastructure is used not only to manage infected devices but also to orchestrate the <strong>malware delivery campaign</strong> itself. A dedicated section within the panel is specifically designed to create and administer decoy landing pages that convincingly mimic legitimate platforms, like the Google Play Store. As shown in Figure 9, the panel provides a detailed configuration interface for generating these phishing pages. The example highlights the creation of a page impersonating the official Google Chrome download page. Operators have granular control over the content, allowing them to define a custom domain (e.g., <em>kmyjh[.]top</em>), a page title, and a descriptive text. Furthermore, they can upload related visual assets, such as the application&#x27;s icon and carousel images, to enhance the page&#x27;s authenticity and deceive potential victims.</p><figure style="max-width:1035pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888aebc224dde4a8e1eb51c_AD_4nXd__5FapTLxQpBOIHkZRDDSyh-Qjn75hanGttc3H3fmR8QQBYyNEL6FWUTS_fA3E3kWpKfjoKzaKnJVGtsfWiMISFz7Cla9ilzDa-29Bsn4ajfecjaz884vXMtbKvyDXK6DuyDSHBhSib4KNvjn3Ew.png" loading="lazy" alt=""/></div><figcaption><em>Figure 9: Delivery Pages Management</em></figcaption></figure><p>This functionality strongly indicates that the phishing infrastructure is built to be modular and highly customizable. This likely enables operators to quickly generate and deploy fake download pages for various well-known and trusted applications, adapting their campaigns to different targets or opportunities. It is also worth noting that the schema suggests the domain setup is managed manually: the panel allows operators to insert pre-registered domains rather than dynamically provisioning them. This implies a clear separation of concerns within the operation, distinguishing the rapid creation of phishing content from the more complex setup of the underlying domain infrastructure. </p><figure style="max-width:1600pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/6888aebd224dde4a8e1eb55d_AD_4nXfSEL9YsUFGqPn6RvJz5jT5hsc3EKGlPN-Tx2aFhI-1rDb4Yrej0SjNqN9QUJqMCMlRqgGE22Or5DNbbWDQ7-NY0I0CmEplZJMUMCfCNcZVhwQl7phaGaZLHgCPgG1IbnYtSwg_MDajBCS-VyIup4c.png" loading="lazy" alt=""/></div><figcaption><em>Figure 10: Example of Malware Delivery Page</em></figcaption></figure><p>‍</p><p>‍</p></div></section><section id="7" class="bigmarginbottom"><h3 class="titlesectionclab">Conclusion</h3><div class="blog w-richtext"><p>The operators behind <strong>PlayPraetor </strong>have established a sophisticated and highly effective fraudulent operation that has achieved a remarkable global scale, infecting over 11,000 devices. The campaign&#x27;s success is built upon a well-established operational methodology, leveraging a <strong>multi-affiliate MaaS model</strong>. This structure allows for broad and highly targeted campaigns, which are now expanding at over 2,000 new compromises per week.</p><p>PlayPraetor represents another significant entry from Chinese-speaking threat actors into the global financial fraud landscape. This trend, exemplified by recent campaigns such as <a href="https://www.cleafy.com/cleafy-labs/toxicpanda-a-new-banking-trojan-from-asia-hit-europe-and-latam">ToxicPanda</a> and <a href="https://www.cleafy.com/cleafy-labs/supercardx-exposing-chinese-speaker-maas-for-nfc-relay-fraud-operation">Supercard X</a>, demonstrates an increasing interest from TAs in this region in developing and deploying sophisticated attack vectors against financial institutions worldwide. While technically PlayPraetor does not deviate from other modern Android banking trojans, implementing well-established techniques for On-Device Fraud through the abuse of Android&#x27;s Accessibility Services, its innovation lies in its operational model. </p><p>The authors have established a robust business model that enables global distribution through independent campaigns managed by different affiliate groups. Furthermore, directly integrating campaign creation and management functionality within the C2 panel represents a significant operational advancement. This centralisation enables affiliates to manage all phases of the kill-chain from a single control interface, dramatically simplifying operations and lowering the barrier to entry for new affiliates.</p><p>Cleafy&#x27;s analysis confirms PlayPraetor is undergoing continuous adaptation, evidenced by changes in its commands designed to enhance evasion and expand functionality. In summary, combining a scalable MaaS platform, streamlined campaign management tools, an adaptable operational strategy, and a constantly improving RAT makes the PlayPraetor campaign a dynamic and highly relevant threat to the global financial ecosystem.<br/><br/>‍</p><h4>TLP:AMBER Version</h4><p>This report is a <strong>TLP:WHITE</strong> version intended for public dissemination and is based on an original <strong>TLP:AMBER</strong> report. The TLP:AMBER report was previously shared privately with relevant financial CERTs, impacted banking institutions, and law enforcement agencies (LEAs).</p><p>We encourage trusted researchers and analysts within the community to contact us at labs@cleafy.com to request access to the TLP:AMBER version. Access will be granted to those recognised as &quot;trusted entities,&quot; allowing for a deeper insight into the findings and supporting data behind this analysis. </p></div></section><section id="8" class="bigmarginbottom"><h3 class="titlesectionclab">Appendix</h3><div class="blog w-richtext"><h3>Indicator of Compromise (IOCs)</h3><p>‍</p><p>Malware samples:</p><div class="w-embed"><style type="text/css">
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0302{background-color:#172b4d;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">Hash</span></th>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">App name</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:#FFF">1b022ac761a077f0116bb427b6cf8315a86aa654ae0cd55a6616647bbeb769c4</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Nielsen‎</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">d392372928571662e4e59b0e3ff52a0e39a8f062633a4f5bdafc681bcdcdcf22</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Google Chrome</span></td>
+  </tr>
+</tbody></table></div><p>‍</p><p>C2 Infrastructure:</p><div class="w-embed"><style type="text/css">
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0302{background-color:#172b4d;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">IP / Domain</span></th>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">Description</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:#FFF">mskisdakw[.]top</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Bot Communications Domain</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:#FFF">fsdlaowaa[.]top</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Bot Communications Domain</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:#FFF">199.247.6[.]61</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#111827;background-color:#FFF">Bot Communications IP</span></td>
+  </tr>
+</tbody></table></div><p>‍</p><p>Delivery Page:</p><div class="w-embed"><style type="text/css">
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0302{background-color:#172b4d;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">Domain</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:#FFF">djp[.]center</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:#FFF">kmyjh[.]top</span></td>
+  </tr>
+</tbody>
+</table></div><p>‍</p><h3>Malware Sub-Commands</h3><p>‍</p><div class="w-embed"><style type="text/css">
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-4x4r{background-color:#e65959;text-align:left;vertical-align:top}
+.tg .tg-0302{background-color:#172b4d;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-03db{background-color:#a5cd8f;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">Command</span></th>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">2025/02</span></th>
+    <th class="tg-0302"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#FFF">2025/06</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">add_face_view</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">add_fingerprint_view</span></td>
+    <td class="tg-03db"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-03db"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">add_volumes</span></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">album_auth</span></td>
+    <td class="tg-4x4r"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-4x4r"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">alert_auth</span></td>
+    <td class="tg-4x4r"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-4x4r"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">allow_uninstall</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">appinfo</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">back</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">battery_auth</span></td>
+    <td class="tg-4x4r"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-4x4r"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">camera_auth</span></td>
+    <td class="tg-4x4r"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-4x4r"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">card_unlock</span></td>
+    <td class="tg-03db"></td>
+    <td class="tg-03db"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">click</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">contacts_auth</span></td>
+    <td class="tg-4x4r"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-4x4r"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">del_alert_window</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">del_black_view</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">delete_photo_new</span></td>
+    <td class="tg-03db"></td>
+    <td class="tg-03db"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">dialog</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">drop_down_menu_bar</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">enter_password</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">fast_auth</span></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">getalbum</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">getapp</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">getcontacts</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">getsms</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">hide_launcher</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">home</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">input</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">install_app</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">lock</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">longclick</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">menu</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">mute_1</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">one_click_uninstall</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">open_app</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">open_camera</span></td>
+    <td class="tg-4x4r"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-4x4r"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">open_gallery</span></td>
+    <td class="tg-4x4r"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-4x4r"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">open_notification</span></td>
+    <td class="tg-4x4r"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-4x4r"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">refresh</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">restore_volume</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">screenshot</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">show_launcher</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">show_notification</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">show_pwd_view</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">shutdown_interface</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">slide</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">slide_bottom</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">slide_left</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">slide_right</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">slide_top</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">slide_unlock</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">sms_auth</span></td>
+    <td class="tg-4x4r"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+    <td class="tg-4x4r"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">start_camera</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">start_recording</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">stop_camera</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">stop_recording</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">subtract_volumes</span></td>
+    <td class="tg-03db"></td>
+    <td class="tg-03db"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">switch_camera</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">sync</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">uninstall_app</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">volumes_zero</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">X</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D;background-color:transparent">wake</span></td>
+    <td class="tg-03db"></td>
+    <td class="tg-03db"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#172B4D">X</span></td>
+  </tr>
+</tbody></table></div></div></section></div><div class="sidebar"><div class="anchorlist"><h6 class="color-dark bold">Article Content</h6><a href="#1" class="anchorlink insight">Key Points</a><a href="#2" class="anchorlink insight">Executive Summary</a><a href="#3" class="anchorlink insight">Introduction</a><a href="#4" class="anchorlink insight">PlayPraetor Overview</a><a href="#5" class="anchorlink insight">Target Profile and Campaign Distribution</a><a href="#6" class="anchorlink insight">Behind the C2 Panel</a><a href="#7" class="anchorlink">Conclusion</a><a href="#8" class="anchorlink">Appendix</a></div><div class="author-block"><div class="divider full bigmarginbottom"></div><h4>Meet the authors</h4><div><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="/authors/simone-mattia" class="authorblock insights w-inline-block"><div class="portraitpic"><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c2694cced42ee911c50_66754a889dbde26a73213ee8_Simone%2520Mattia.png" loading="lazy" alt="" class="objectfit"/></div><div class="grow"><div class="authorname">Simone Mattia</div><div>Threat Intelligence Analyst</div></div></a></div></div></div></div><div><a href="/authors/alessandro-strino" class="authorblock insights w-inline-block"><div class="portraitpic"><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25cc1fc52073a184c4_62a9b02a5513ec492e8aac24_Strino_Alessandro_Pic.jpeg" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25cc1fc52073a184c4_62a9b02a5513ec492e8aac24_Strino_Alessandro_Pic-p-500.jpeg 500w, https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25cc1fc52073a184c4_62a9b02a5513ec492e8aac24_Strino_Alessandro_Pic-p-800.jpeg 800w, https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25cc1fc52073a184c4_62a9b02a5513ec492e8aac24_Strino_Alessandro_Pic-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25cc1fc52073a184c4_62a9b02a5513ec492e8aac24_Strino_Alessandro_Pic.jpeg 1206w" class="objectfit"/></div><div class="grow"><div class="authorname">Alessandro Strino</div><div>Malware Analyst</div></div></a><a href="/authors/federico-valentini" class="authorblock insights w-inline-block"><div class="portraitpic"><img src="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25a19873de6ce273f6_628b5b9c1376519044dbc9e1_FedeV_final.jpeg" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25a19873de6ce273f6_628b5b9c1376519044dbc9e1_FedeV_final-p-500.jpeg 500w, https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25a19873de6ce273f6_628b5b9c1376519044dbc9e1_FedeV_final-p-800.jpeg 800w, https://cdn.prod.website-files.com/60201cc2b6249b0358f70f8a/66799c25a19873de6ce273f6_628b5b9c1376519044dbc9e1_FedeV_final.jpeg 1067w" class="objectfit"/></div><div class="grow"><div class="authorname">Federico Valentini</div><div>Head of Threat Intelligence and Incident Response</div></div></a></div></div><h6 class="whitetext">Share with your community</h6><div style="opacity:0;display:none;-webkit-transform:translate3d(10%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(10%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(10%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(10%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="downloadbanner"><h5 class="cryptotext">Get the PDF version by subscribing to Cleafy LABS bulletins</h5><p class="white">Get your free copy to your inbox now</p><a href="#" class="button downloadpdf">Download PDF Version</a></div></div></div></section></div><section class="section bkg-labs no-padding-bottom"><div class="wrapper"><div class="_80 auto textcenter"><img src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/67d2edc94c8ed8232523cefe_Cleafy-Labs.avif" loading="lazy" alt="" class="bottom-32 icon-40"/><h2 class="bottom-24">Subscribe to Cleafy LABS bulletins</h2><p>Be among the first people worldwide to receive comprehensive technical reports on newly uncovered threats.</p><a href="/labs/subscribe" class="button bottom-40">Subscribe now</a></div></div></section><div class="dsm-footer bkg-labs"><div class="dsm-wrapper foot"><div><div class="footercontent w-clearfix"><div class="footerlist"><div class="footerlistflex"><div><div class="infotext">Product</div><ul role="list" class="foot-list"><li class="listitemfooter"><a href="/platform" class="linkfooter">Platform</a></li><li><a href="/industries" class="linkfooter">Industries</a></li><li><a href="/threat-intelligence" class="linkfooter">LABS</a></li></ul></div><div><div class="infotext">Resources</div><ul role="list" class="foot-list"><li class="listitemfooter"><a href="/resources/documents" class="linkfooter">Documents</a></li><li><a href="/resources/insights" class="linkfooter">Insights</a><a href="/labs" class="linkfooter">LABS reports</a></li></ul></div><div><div class="infotext">Company</div><ul role="list" class="foot-list"><li class="listitemfooter"><a href="/about-us" class="linkfooter">About us</a></li><li><a href="/careers" class="linkfooter">Careers</a></li><li><a href="/partners" class="linkfooter">Partners</a></li></ul></div><div id="w-node-_1d587cae-a2b4-7383-e6c5-d1b619d293c3-19d29397"><div class="infotext">Legal</div><ul role="list" class="foot-list"><li class="listitemfooter"><a href="https://3993512.fs1.hubspotusercontent-na1.net/hubfs/3993512/CLEAFY/Downloadable%20Resources/Legal%20Documentation/Website%20Terms%20of%20Use_2024.pdf" target="_blank" class="linkfooter tiny">Website Terms of Use</a></li><li class="listitemfooter"><a href="/saas-terms-of-service" class="linkfooter tiny">SaaS Terms of Service</a></li></ul></div><div id="w-node-_1d587cae-a2b4-7383-e6c5-d1b619d293cd-19d29397"><div class="infotext">Privacy &amp; Security</div><ul role="list" class="foot-list"><li class="listitemfooter"><a href="https://www.iubenda.com/privacy-policy/31282315" target="_blank" class="linkfooter tiny">Privacy Policy</a></li><li class="listitemfooter"><a href="https://www.iubenda.com/privacy-policy/31282315/cookie-policy" target="_blank" class="linkfooter tiny">Cookie Policy</a></li><li class="listitemfooter"><a href="/security-disclosure-policy" target="_blank" class="linkfooter tiny">Security Disclosure Policy</a><a href="https://3993512.fs1.hubspotusercontent-na1.net/hubfs/3993512/CLEAFY/Downloadable%20Resources/Legal%20Documentation/Whistleblowing%20Policy/Privacy%20notice%20on%20whistleblowing%20(EN).docx.pdf" target="_blank" class="linkfooter tiny">Whistleblowing</a></li><li class="listitemfooter"><div class="iubenda w-embed"><a href="#" class="iubenda-advertising-preferences-link linkFooter tiny" style="margin-top: 8px; font-size:0.75rem; text-decoration: none; color:#020e1e; line-height:100%">Update your advertising tracking preferences</a></div></li></ul></div></div></div></div><div class="divider dark"></div><div class="flex-h align-space align-top w-clearfix"><div class="infofooter"><a href="/" class="logo footer w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/6031121f255fb120fa9d4d05_Cleafy-logo.svg" alt="Cleafy Logo"/></a></div><div class="foot-icon-image"><img loading="lazy" src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/67110715f242aca65720b8b3_gdpr_compliant.svg" alt="" class="icon-28 op-5"/><img loading="lazy" src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/671105bb168626baf071f11d_iso.svg" alt="" class="icon-28 op-5"/><img loading="lazy" src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/671105bb0bfe05aceaf61b51_aicpa-soc.svg" alt="" class="icon-28 op-5"/><img loading="lazy" src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/603cc856b689ffa0ca243714_GC-Partner-no_outline-H.avif" alt="" class="icon-40"/></div></div><div class="flex-h align-space align-top w-clearfix"><div class="infofooter"><div class="infotext">© 2025 Cleafy S.p.A.<br/>Via Vittor Pisani 15, 20124 Milano ITALY</div><div class="infotext">VAT 02340370226</div><div><a href="https://www.linkedin.com/company/cleafy/" target="_blank" class="linkopacity w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/66deb43f416fd625b637141d_mdi_linkedin.svg" alt="" class="iconsocial marginright"/></a><a href="https://twitter.com/cleafy" target="_blank" class="linkopacity w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/66deb43e416fd625b6371406_Frame%20180.svg" alt="" class="iconsocial marginright"/></a></div></div></div><div class="footerend iubenda"></div></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6020129a813fe0c8f1e8053e" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/js/cleafy.schunk.57d5559d2f0cd9f8.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/js/cleafy.schunk.c865a798d51f0833.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e/js/cleafy.49e65e2f.2950723def78658f.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/6020129a813fe0c8f1e8053e%2F6470f5217e03b0faa8a404de%2F675ff31269b6e51c32ba6393%2Fhs_trackcode_3993512-1.0.6.js" type="text/javascript"></script></body></html>

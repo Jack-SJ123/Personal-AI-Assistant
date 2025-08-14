@@ -1,0 +1,394 @@
+[
+  {
+    "type": "sha1",
+    "value": "05a8e10251a29faf31d7da5b9adec4be90816238",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "06fcb4adf8ca6201fc9e3ec72d53ca627e6d9532",
+    "context": "The IOC likely represents a file hash for a potentially malicious payload.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "08f517d4fb4428380d01d4dd7280b62042f9e863",
+    "context": "This IOC likely represents a file hash associated with a potential malware payload.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "0c472b96ecc1353fc9259e1b8750cdfe0b957e4f",
+    "context": "This IOC likely represents a file hash associated with a malware payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific associations with known techniques, leading to low confidence in the assessment."
+  },
+  {
+    "type": "sha256",
+    "value": "13fafb1ae2d5de024e68f2e2fc820bc79ef0690c40dbfd70246bcc394c52ea20",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or support for specific ATT&CK techniques, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "1594331d444d1a1562cd955aefff33a0ee838ac9",
+    "context": "This IOC likely represents a file hash for a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha256",
+    "value": "16f83f056177c4ec24c7e99d01ca9d9d6713bd0497eeedb777a3ffefa99c97f0",
+    "context": "This IOC likely represents a malicious payload or file.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "1783af05e7cd52bbb16f714e878bfa9ad02b6388",
+    "context": "The IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or validate the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "185d10800458ab855599695cd85d06e630f7323d",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or support for specific ATT&CK techniques, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "1aa5a0e7bfb995fc2f3ba0e54b59e7877b5d8fd3",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "type": "sha256",
+    "value": "1b022ac761a077f0116bb427b6cf8315a86aa654ae0cd55a6616647bbeb769c4",
+    "context": "This IOC likely represents a payload associated with a malicious file or software.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques related to this SHA-256 hash, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "23c61ad383c54b82922818edcc0728e9ef6c984d",
+    "context": "This IOC likely represents a file hash associated with a malware payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to support a specific context or technique, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha256",
+    "value": "2a8fafa01f6d3863c87f20905736ebab28d6a5753ab708760c0b6cf3970828c3",
+    "context": "The IOC likely represents a malicious payload or file associated with malware.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific details about the IOC, leading to a low confidence in determining its exact purpose."
+  },
+  {
+    "type": "sha256",
+    "value": "2b55430b90a500cb2bb9ddc530aeb1ffb8d2f8878148b7204ab7ef998d66eb9d",
+    "context": "This IOC likely represents a malicious payload or file associated with an attack.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific details about the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "2bc75023f6a4c50b21eb54d1394a7b8417608728",
+    "context": "This IOC likely represents a file hash associated with a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "345c59394303bb5daf1d97e0dda894ad065fedf6",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "37e4039bd2135d3253328fea0f6ff1ca60ec4050",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "3a20b574e12ffb8a55f1fb5dc91c91245a5195e8",
+    "context": "The IOC likely represents a file hash for a potentially malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha256",
+    "value": "3a6d5694eec724726efa3327a50fad3efdc623c08d647b51e51cd578bddda3da",
+    "context": "This IOC likely represents a file hash for a potential malware payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of this IOC, leading to low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "3d38abc7786a1b01e06cc46a8c660f48849b2b5f",
+    "context": "This IOC likely represents a file hash for a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or support for specific attack techniques, leading to low confidence in the assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "3e9198e9546fa73ef93946f272093092363eb3e2",
+    "context": "This IOC likely represents a file hash associated with a potential malware payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "3f0071d64edd72d7d92571cf5e4a5e82720c5a9b",
+    "context": "The IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to support a specific context or technique, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "40795ca0880ea7418a45c66925c200edcddf939e",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "407df08aff048b7d05fd7636be3bc9baa699646d",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or validate the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha256",
+    "value": "42f3f9d2684328575847f3115fcd6f759cc47b0f21b3d4fea480de0f34a1e947",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "type": "sha256",
+    "value": "43cd3f8675e25816619f77b047ea5205b6491137c5b77cce058533a07bdc9f98",
+    "context": "This IOC likely represents a malicious payload or file.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "44feb2d7d7eabf78a46e6cc6abdd281f993ab301",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to support a specific context or technique, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "4528215707a923404e3ca7667b656ae50cef54ef",
+    "context": "This IOC likely represents a file hash associated with a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "4607f6c04f0c4dc4ee5bb68ee297f67ccdcff189",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "48325c530f838db2d7b9e5e5abfa3ba8e9af1215",
+    "context": "The IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "48d6350afa5b92958fa13c86d61be30f08a3ff0c",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or support for specific ATT&CK techniques related to this IOC."
+  },
+  {
+    "type": "sha256",
+    "value": "4a8bf419424ff42b736a51472d35a2c172e4c60b762c519b0b2f9eb04690726c",
+    "context": "This IOC likely represents a payload or malicious file due to the lack of external evidence indicating its use as a C2 or other type of indicator.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "Without external evidence to support its context, the assessment is limited, leading to a low confidence in its specific use case."
+  },
+  {
+    "type": "sha1",
+    "value": "4ab9c1565f740743a9d93ca4dd51c5d6b8b8a5b6",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "4dcf4b2d07a2ce59515ed3633386addff227f7bd",
+    "context": "The IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in specific attack techniques."
+  },
+  {
+    "type": "sha1",
+    "value": "5246e098dc625485b467edd036d86fd363d75aae",
+    "context": "This IOC likely represents a file hash for a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to support a specific context or technique, leading to low confidence in the assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "533960d38e6fee7546cdea74254bccd1af8cbb65",
+    "context": "The IOC likely represents a file hash associated with a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "540227c86887eb4460c4d59b8dea2a2dd0e575b7",
+    "context": "This IOC likely represents a file hash of a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques associated with this hash, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "5b60e1b7458cef383c45998204bbaac5eacbb7ee",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or justify specific ATT&CK techniques, leading to low confidence in the assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "612f61b2084820a1fcd5516dc74a23c1b6eaa105",
+    "context": "This IOC likely represents a file hash associated with malware or a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques associated with this IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "61a0cb64ca1ba349550176ef0f874dd28eb0abfa",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence provided to support a specific attack technique or context, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "6393b23bc20c2aaa71cb4e1597ed26de48ff33e2",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "type": "sha1",
+    "value": "65c11e7a61ac10476ed4bfc501c27e2aea47e43a",
+    "context": "This IOC likely represents a file hash for a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha256",
+    "value": "844013025bf7c5d01e6f48df0e990103ad3c333be31f54cf5301e1463f6ca441",
+    "context": "The IOC likely represents a file hash associated with a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "md5",
+    "value": "b59d7c331e96be96bcfa2633b5f32f2c",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "sha256",
+    "value": "c8ae8d69f465f2d1ca88907e75471299acbb76b5663dacca1520aaa4d99d7b43",
+    "context": "This IOC likely represents a malicious payload or file associated with an attack.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques related to this IOC, leading to a low confidence assessment."
+  },
+  {
+    "type": "sha1",
+    "value": "d58dade6ea03af145d29d896f56b2063e2b078a4",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or validate the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "type": "url",
+    "value": "http://gmpg.org/xfn/11",
+    "context": "This IOC likely represents a benign URL with low malicious reputation, possibly used for legitimate purposes.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "The VirusTotal analysis shows a high number of harmless detections and no malicious indicators, suggesting that the URL is not associated with any known attack techniques."
+  },
+  {
+    "type": "url",
+    "value": "http://www.w3.org/2000/svg",
+    "context": "This IOC likely represents a benign URL that may be used for legitimate purposes but has a low reputation score indicating potential misuse.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The URL has a high number of harmless detections and a low reputation score, suggesting it may not be malicious but could be misused in certain contexts."
+  },
+  {
+    "type": "url",
+    "value": "https://api.w.org/",
+    "context": "This IOC likely represents a benign URL associated with a web API, potentially misused in a phishing or C2 context.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The VirusTotal analysis shows a high number of harmless detections and no malicious flags, indicating that the URL is likely not directly associated with malicious activity, but its usage context could be suspicious."
+  }
+]
