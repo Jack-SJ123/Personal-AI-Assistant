@@ -1,0 +1,689 @@
+[
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "ipv4",
+    "value": "127.0.0.1",
+    "context": "This IOC likely represents a local loopback address, which is commonly used for testing and internal communications.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "The lack of external evidence and the nature of the IP address suggest it is not indicative of malicious activity, leading to low confidence in any specific attack mapping."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "ipv4",
+    "value": "21.9.2.172",
+    "context": "This IOC likely represents a command and control (C2) server due to its IP address format.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "There is no external evidence to definitively classify the IOC, leading to low confidence in its context as a C2 server."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "0762764e298c369a2de8afaec5174ed9",
+    "context": "The IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques associated with this MD5 hash, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "1c6363248c917b9b2a0e37e547cb1bd5",
+    "context": "This IOC likely represents a file hash for a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "04a5b5ecf057134a96ba9beac224c672",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques associated with this MD5 hash, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "6078dbad380775d01ce9cf91cbe23d7b",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques associated with this MD5 hash, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "c720441cc3603483defcad7f2476c220",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "790cfe1f9b1f7a1b8805f3c581aeb1c3",
+    "context": "This IOC likely represents a file hash of a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "There is no external evidence to support a specific context or technique, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "bcf121ba763f4a0c07113046e5103900",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "01a584f26eace00ff96f6511bab5bfee",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques associated with this MD5 hash, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "055cc4c30260884c910b383bb81cf7c8",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "41c4c3036bc1fdeb8d3be8e2903e83cc",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or support for specific ATT&CK techniques, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "59e7f22d2c290336826700f05531bd30",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "e03a74a92211229c0c6f2886aaac4c2a",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques associated with this MD5 hash, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "641d7e44b87e88608443d6423937d983",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or support for specific ATT&CK techniques, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "68d3bf2c363144ec6874ab360fdda00a",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "9f9c2bdf45f6a9940555fd1f009701ac",
+    "context": "This IOC likely represents a file hash associated with a potentially malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "4fd61e498bb8c6e5df247450b7304c91",
+    "context": "This IOC likely represents a malicious payload or file hash.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or support for specific ATT&CK techniques, leading to low confidence in the assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "b12f0933881af6f53b5ba01242acc35a",
+    "context": "This IOC likely represents a file hash associated with a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence provided to support a specific context or technique, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "da26fb84c103109da7b738d0c1b0612c",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "Without external evidence to provide context or details about the file, the assessment remains speculative, leading to low confidence in the specific attack techniques."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "md5",
+    "value": "f317b6bafb5c6f4c3c9ffb967fd941b5",
+    "context": "This IOC likely represents a malicious file hash, potentially a payload used in an attack.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "Without external evidence to provide context or specific behavior associated with this hash, the assessment is largely speculative, leading to low confidence in any specific attack mapping."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "ec932d26a059a188af6320b8ca76ce6e609f4878",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or validate the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "fa2f281fd4009100b2293e120997bfd7feb10c16",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "bd5b31a61969f10bada83618b27af8f3edf1cfc4",
+    "context": "This IOC likely represents a file hash of a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to support a specific context or technique, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "e94d0ba20b42f26f32ed7463e9bd807753fae3cc",
+    "context": "This IOC likely represents a file hash associated with a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "4373fefdec70547cb513be8e908997033197dc86",
+    "context": "This IOC likely represents a file hash for a potential malware payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "fbb59ffa0f882cc2971d72b8556bfe3b9cce060c",
+    "context": "This IOC likely represents a file hash for a malicious payload or binary.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques associated with this IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "84a594fc02731009fdf444a3e4134b1b7a928626",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "3b2a0d2cb8993764a042e8e6a89cbbf8a29d47d1",
+    "context": "This IOC likely represents a file hash associated with a malware payload.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "There is no external evidence to provide context or specific attack techniques related to this IOC, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "d0e158d8f0d1652441374283e6fe4f7bd8e8edb6",
+    "context": "This IOC likely represents a file hash associated with a malware payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "509c2115bfbb20e65a08286935cfac1305894ede",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or validate the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "7e9f57de4eaf2fa3535c1b4f0c5fa1f33b3dd2ac",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "893135fe8c1d0bd9a25e7d112990f4c5f6485288",
+    "context": "This IOC likely represents a file hash associated with a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "675fc8dd389190b8ba2fb7f9ba5631b790d7cb90",
+    "context": "This IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "731bd8b6c368007aa8b1bcfffe07d920b1b827c2",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "d5d924a5c390946bb55f820b8444e4d9dea1958c",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "69017682934fd66707f61c2c975ff7164e753f30",
+    "context": "The IOC likely represents a file hash associated with a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques related to this IOC, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "0e36bcc07c3de7549feafeeb606d4a77dd435c71",
+    "context": "This IOC likely represents a file associated with malware or a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific behavior related to this SHA1 hash, leading to a low confidence in determining its exact use or association."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha1",
+    "value": "a3bf960f6d124d0b53608ddb0c65177d3717a22f",
+    "context": "The IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "ed2f501408a7a6e1a854c29c4b0bc5648a6aa8612432df829008931b3e34bf56",
+    "context": "This IOC likely represents a file associated with malware or a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques associated with this SHA256 hash, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "92e853dd359cb3636fa165a7170498d14ef7c692d8e6545b7adea95d89fe189f",
+    "context": "This IOC likely represents a malicious payload or file.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques associated with this SHA256 hash, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "9e4763ddb6ac4377217c382cf6e61221efca0b0254074a3746ee03d3d421dabd",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "54295c0679b4eecddc794b7f7210b1942347871c3e228fad22a341a30712de5c",
+    "context": "This IOC likely represents a malicious payload or file.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques related to this IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "7aeacfa3b007c417bdebdf90232b9ebb4faf76efc4853cc49e3c0a74654d80b1",
+    "context": "This IOC likely represents a file hash associated with a potential malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific behavior associated with this hash, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "f63e17ff2d3cfe75cf3bb9cf644a2a00e50aaffe45c1adf2de02d5bd0ae35b02",
+    "context": "This IOC likely represents a malicious payload or file.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques related to this IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "a6cad2d0f8dc05246846d2a9618fc93b7d97681331d5826f8353e7c3a3206e86",
+    "context": "This IOC likely represents a malicious payload or file associated with an attack.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques related to this IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "efa0d4a79c4c971c680ef8020bb526b07a13061f4eb68ee6f5af9e42c6364bd8",
+    "context": "This IOC likely represents a malicious payload or file associated with an attack.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques associated with this SHA256 hash, leading to low confidence in the assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "abd011278f60b350e932c6ed3e2ee16b3e0f45d616d04e5d2fba02a57d521080",
+    "context": "This IOC likely represents a payload associated with a malware sample.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "There is no external evidence to provide specific context or techniques related to this IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "904e0855772f56721cc157641a26bb7963651e5a45c3bb90764328b17081abd5",
+    "context": "This IOC likely represents a malicious payload or file associated with an attack.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques associated with this SHA256 hash, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "794a5621fda2106fcb94cbd91b6ab9567fb8383caa7f62febafcf701175f2b91",
+    "context": "The IOC likely represents a file hash for a potential malware payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to support a specific context or technique, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "00dd454af4ee062aecf81d422fcec72f6f2af12bbc816906045690e67cdf01a1",
+    "context": "This IOC likely represents a malicious payload or file.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to support a specific attack technique, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "3febf726ffb4f4a4186571d05359d2851e52d5612c5818b2b167160d367f722c",
+    "context": "This IOC likely represents a file hash associated with a potential malware payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to a low confidence in its specific use case."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "0f988e0bce8d310eb90e8c09bd6bdd765ce0d33519f0436494877f9925c3b235",
+    "context": "This IOC likely represents a payload associated with a malware sample.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques associated with this hash, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "d0f70fb2d9001644ba65ae71a50f5ea5ce3e0e1b2dc47ea6f2cdf132536df54a",
+    "context": "This IOC likely represents a malicious payload or file associated with an attack.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques associated with this IOC, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "57052ab0ae2d77543d993d8b2887987af4163a56a2bed4d678a4b4db1ac3d7f2",
+    "context": "This IOC likely represents a malicious payload or file.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific attack techniques associated with this SHA256 hash, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "65090399c998948c347a1e5c223461925e68178dd94c92e9de04597493197097",
+    "context": "This IOC likely represents a file hash for a malicious payload.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or confirm the nature of the IOC, leading to low confidence in its classification."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "sha256",
+    "value": "5b9407df404506219bd672a33440783c5c214eefa7feb9923c6f9fded8183610",
+    "context": "This IOC likely represents a payload associated with a malicious file or software.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "There is no external evidence to provide context or specific techniques associated with this SHA256 hash, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://torproject.org",
+    "context": "This IOC likely represents a benign URL associated with the Tor Project, which is known for privacy and anonymity services.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The VirusTotal analysis shows a high reputation score and no malicious or suspicious flags, indicating that this URL is likely not associated with malicious activity."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://github.com/rsmudge/ZeroLogon-BOF",
+    "context": "This IOC likely represents a GitHub repository hosting a proof-of-concept exploit for the ZeroLogon vulnerability.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The URL points to a GitHub repository with a low reputation score and no malicious detections, suggesting it may be a benign resource rather than an active threat, leading to low confidence in specific attack techniques."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://github.com/klinix5/",
+    "context": "This IOC likely represents a malicious URL associated with a GitHub repository used for distributing malware.",
+    "attack_mapping": [
+      "T1071",
+      "T1105"
+    ],
+    "confidence": 85,
+    "rationale": "The URL has a low reputation score and is marked as malicious on VirusTotal, indicating it may be used for command and control or as a delivery mechanism for payloads."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://github.com/klinix5/InstallerFileTakeOver",
+    "context": "This IOC likely represents a GitHub repository that may host potentially malicious installer files.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The VirusTotal analysis shows a high number of undetected results, indicating that the content may not be widely recognized as malicious, but the low reputation suggests potential risk."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://github.com/bitsadmin/",
+    "context": "This IOC likely represents a GitHub repository that may be associated with malicious activity or tools.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The URL has a low reputation score and is marked as suspicious, indicating potential malicious intent, but lacks clear evidence linking it to specific attack techniques."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://github",
+    "context": "This IOC likely represents a non-functional URL, possibly indicating a dead command and control (C2) server or a phishing link that is no longer active.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The 404 status indicates that the URL is not reachable, suggesting it may have been used for malicious purposes but is currently inactive, leading to low confidence in any specific attack technique mapping."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://github.com/djhohnstein/SharpWeb",
+    "context": "This IOC likely represents a GitHub repository for a tool that could be used for web exploitation or testing.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The URL points to a GitHub repository with a low reputation and a significant number of harmless detections, suggesting it may not be inherently malicious but could be used for legitimate or malicious purposes."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://github.com/AlessandroZ/",
+    "context": "This IOC likely represents a benign URL that may be misused for hosting or distributing content.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "The VirusTotal analysis shows a high number of harmless detections and a low reputation score, indicating that while the URL is currently undetected as malicious, it may still be used for legitimate purposes or could be a potential future target for exploitation."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://github.com/",
+    "context": "This IOC likely represents a legitimate URL that may be used in phishing or social engineering attacks.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The URL is associated with a well-known platform with a high reputation score and no malicious indicators, suggesting it may be used in a benign context or as part of a phishing scheme."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "https://github.com/ParrotSec/mimikatz",
+    "context": "This IOC likely represents a repository for a credential dumping tool.",
+    "attack_mapping": [
+      "T1003"
+    ],
+    "confidence": 70,
+    "rationale": "The URL points to a GitHub repository for 'mimikatz', a well-known credential dumping tool, which aligns with the ATT&CK technique for credential access. The VirusTotal analysis shows it is suspicious but not widely recognized as malicious, indicating it may be used in legitimate contexts as well."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "url",
+    "value": "http://23.183.81[.]113:80/a123123123",
+    "context": "This IOC likely represents a command and control (C2) server due to its low reputation and presence of malicious detections.",
+    "attack_mapping": [
+      "T1071"
+    ],
+    "confidence": 75,
+    "rationale": "The URL has a low reputation score and multiple malicious detections, indicating it may be used for C2 communication, which aligns with the ATT&CK technique for application layer protocols."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "email",
+    "value": "intelligence@group-ib.com",
+    "context": "This IOC likely represents a phishing email address used for social engineering attacks.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "There is no external evidence to support specific attack techniques associated with this email address, leading to a low confidence assessment."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "domain",
+    "value": "github.com",
+    "context": "This IOC likely represents a legitimate domain used for hosting code repositories, with no immediate signs of malicious activity.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "The VirusTotal analysis shows a high reputation score and no malicious or suspicious flags, indicating that this domain is likely not associated with any known malicious activity."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "domain",
+    "value": "group-ib.com",
+    "context": "This IOC likely represents a benign domain with low reputation and no malicious activity detected.",
+    "attack_mapping": [],
+    "confidence": 20,
+    "rationale": "The VirusTotal analysis shows a reputation score of 0.0 and no malicious indicators, suggesting that the domain is not associated with any known attack techniques."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "domain",
+    "value": "invoke-smbautobrute.ps",
+    "context": "This IOC likely represents a domain associated with a brute-force attack tool targeting SMB services.",
+    "attack_mapping": [
+      "T1110"
+    ],
+    "confidence": 70,
+    "rationale": "The domain suggests a focus on SMB brute-forcing, which aligns with the ATT&CK technique for credential dumping and brute force attacks. The VirusTotal analysis shows a high number of undetected reports, indicating potential malicious use."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "domain",
+    "value": "rocket.chat",
+    "context": "This IOC likely represents a domain associated with a communication platform that may be used for legitimate purposes.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The VirusTotal analysis shows a low reputation and no malicious flags, indicating that the domain is likely harmless, but the presence of undetected results suggests potential for misuse."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "domain",
+    "value": "svvtc.com",
+    "context": "This IOC likely represents a malicious domain associated with potential phishing or malware distribution.",
+    "attack_mapping": [
+      "T1566",
+      "T1203"
+    ],
+    "confidence": 75,
+    "rationale": "The domain has a low reputation score and a significant number of malicious reports, indicating it may be used for phishing or delivering malware, which aligns with techniques for phishing and exploitation of vulnerabilities."
+  },
+  {
+    "source": "group-ib-conti-threat-research-2022-en.pdf",
+    "type": "domain",
+    "value": "torproject.org",
+    "context": "This IOC likely represents a legitimate domain associated with the Tor network, which is often used for anonymizing internet traffic.",
+    "attack_mapping": [],
+    "confidence": 30,
+    "rationale": "The domain has a high reputation score of 57.0 and is marked as harmless by VirusTotal, indicating it is not associated with malicious activity, but its use in anonymity could be leveraged for both legitimate and malicious purposes."
+  }
+]
